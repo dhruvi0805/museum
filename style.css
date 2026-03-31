@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  background: #fff;
+  border-right: 1px solid #e2e8f0;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-family: "Merriweather", serif;
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li + li {
+  margin-top: 0.75rem;
+}
+
+.sidebar a {
+  color: #1a1a1a;
+  text-decoration: none;
+  display: block;
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+.sidebar a:hover {
+  background: #f1f5f9;
+}
+
+.content {
+  padding: 2.5rem;
+  overflow-y: auto;
+}
+
+.hero h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  margin: 0 0 0.75rem;
+}
+
+.hero p {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 48rem;
+}
+
+.era-section {
+  margin-top: 2rem;
+}
+
+.era-section h2 {
+  font-family: "Merriweather", serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.card {
+  border: 1px solid #dbeafe;
+  border-left: 4px solid #1a1a1a;
+  padding: 1rem;
+  border-radius: 0.65rem;
+  margin: 0.75rem 0;
+  background: #fff;
+}
+
+.card.featured {
+  border-color: #fcd34d;
+  border-left-color: #f59e0b;
+  background: #fffbeb;
+}
+
+.image-placeholder {
+  height: 160px;
+  border-radius: 0.5rem;
+  background: #f8fafc;
+  color: #94a3b8;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+.card h3 {
+  font-family: "Merriweather", serif;
+  margin: 0 0 0.35rem;
+}
+
+.card p {
+  margin: 0 0 0.75rem;
+  font-family: "Inter", sans-serif;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.button,
+.card .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid #1a1a1a;
+  border-radius: 0.35rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04rem;
+  color: #1a1a1a;
+  background: transparent;
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
+}
