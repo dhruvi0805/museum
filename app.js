@@ -134,6 +134,70 @@ function initEntranceAnimations() {
   targets.forEach((t) => observer.observe(t));
 }
 
+// ─── Scroll Snap to Next Section ──────────────────────────────────────────────
+let isScrolling = false;
+let currentSectionIndex = 0;
+
+function initScrollSnap() {
+  const sections = Array.from(document.querySelectorAll(".era-section"));
+  const content = document.getElementById("content");
+
+  function scrollToSection(index) {
+    if (index < 0 || index >= sections.length) return;
+
+    isScrolling = true;
+    currentSectionIndex = index;
+
+    sections[index].scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+
+    // Longer timeout for slower scrolling (2.5 seconds)
+    setTimeout(() => {
+      isScrolling = false;
+    }, 2500);
+  }
+
+  // Find initial section based on scroll position
+  function updateCurrentSection() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const centerPoint = scrollTop + window.innerHeight / 2;
+
+    for (let i = 0; i < sections.length; i++) {
+      const section = sections[i];
+      if (
+        centerPoint >= section.offsetTop &&
+        centerPoint < section.offsetTop + section.offsetHeight
+      ) {
+        currentSectionIndex = i;
+        break;
+      }
+    }
+  }
+
+  // Initialize current section
+  updateCurrentSection();
+
+  // Wheel event for scroll snapping
+  window.addEventListener("wheel", (e) => {
+    if (isScrolling) {
+      e.preventDefault();
+      return;
+    }
+
+    const direction = e.deltaY > 0 ? "down" : "up";
+
+    if (direction === "down") {
+      scrollToSection(currentSectionIndex + 1);
+    } else {
+      scrollToSection(currentSectionIndex - 1);
+    }
+
+    e.preventDefault();
+  }, { passive: false });
+}
+
 // ─── Hamburger / Mobile Overlay ───────────────────────────────────────────────
 function openMobileMenu() {
   mobileOverlay.classList.add("open");
@@ -174,4 +238,5 @@ renderNav();
 initSmoothScroll();
 initActiveTracking();
 initEntranceAnimations();
+initScrollSnap();
 initMobileMenu();

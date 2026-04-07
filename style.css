@@ -138,8 +138,6 @@ button { cursor: pointer; background: none; border: none; font-family: inherit; 
   margin-left: var(--sidebar-w);
   flex: 1;
   padding: 0;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
 }
 
 /* ─── Page Header ────────────────────────────────────────────────────────────── */
@@ -180,8 +178,6 @@ button { cursor: pointer; background: none; border: none; font-family: inherit; 
   padding: 80px 72px;
   overflow: hidden;
   isolation: isolate;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
 }
 
 /* Blurred background artwork */
