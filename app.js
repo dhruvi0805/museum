@@ -9,39 +9,34 @@ const overlayClose      = document.getElementById("overlayClose");
 // ─── Render Sections ──────────────────────────────────────────────────────────
 function renderSections() {
   museumData.forEach((era, index) => {
-    // Section wrapper
     const section = document.createElement("section");
     section.className = "era-section fade-target";
     section.id = `era-${era.slug}`;
     section.setAttribute("data-index", index);
 
-    // Era number label
     const labelNum = String(index + 1).padStart(2, "0");
 
     section.innerHTML = `
-      <div class="era-meta">
-        <span class="era-number">${labelNum}</span>
-        <span class="era-period">${era.period}</span>
-      </div>
-      <div class="era-grid">
-        <div class="era-image-col">
-          <div class="era-image-block">
-            <span class="era-placeholder-text">${era.imagePlaceholder}</span>
-          </div>
+      <!-- Full-bleed blurred background -->
+      <div class="era-bg" style="background-image: url('${era.bgImage}')"></div>
+      <div class="era-bg-overlay"></div>
+
+      <!-- Liquid glass card containing all text content -->
+      <div class="era-glass-card">
+        <div class="era-meta">
+          <span class="era-number">${labelNum}</span>
+          <span class="era-period">${era.period}</span>
         </div>
-        <div class="era-text-col">
-          <h2 class="era-title">${era.title}</h2>
-          <p class="era-description">${era.description}</p>
-          <ul class="era-highlights">
-            ${era.highlights.slice(0, 4).map(h => `<li>${h}</li>`).join("")}
-          </ul>
-          <a href="detail.html?era=${era.slug}" class="learn-more-btn">
-            Learn More
-            <span class="btn-arrow">→</span>
-          </a>
-        </div>
+        <h2 class="era-title">${era.title}</h2>
+        <p class="era-description">${era.description}</p>
+        <ul class="era-highlights">
+          ${era.highlights.slice(0, 4).map(h => `<li>${h}</li>`).join("")}
+        </ul>
+        <a href="detail.html?era=${era.slug}" class="learn-more-btn">
+          Learn More
+          <span class="btn-arrow">→</span>
+        </a>
       </div>
-      <div class="era-divider"></div>
     `;
 
     sectionsContainer.appendChild(section);

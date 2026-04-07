@@ -8,6 +8,7 @@ const museumData = [
       "The earliest known artistic expressions—cave paintings, fertility figures, and monumental architecture—emerged as humanity sought to make meaning from the world. Egyptian hieroglyphs, Greek sculptures, and Roman frescoes established visual languages still echoing today.",
     imagePlaceholder: "I",
     accent: "#1a1a1a",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1280px-Lascaux_painting.jpg",
     slug: "ancient-art",
     highlights: [
       "Cave paintings of Lascaux (~17,000 BCE)",
@@ -30,6 +31,7 @@ const museumData = [
       "Dominated by religious iconography and manuscript illumination, medieval art prioritized spiritual meaning over naturalistic representation. Gothic cathedrals became total works of art—architecture, sculpture, and stained glass unified in devotional purpose.",
     imagePlaceholder: "II",
     accent: "#2a2a2a",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1280px-GoldenHaggadahPlague.jpg",
     slug: "medieval-art",
     highlights: [
       "Book of Kells illuminated manuscript (~800 CE)",
@@ -52,6 +54,7 @@ const museumData = [
       "A rebirth of classical learning, the Renaissance placed human experience at the center of art. Linear perspective, anatomy, and the ideal of the 'universal man' transformed painting and sculpture into intellectual pursuits as rigorous as science.",
     imagePlaceholder: "III",
     accent: "#333333",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
     slug: "renaissance",
     highlights: [
       "Botticelli — Birth of Venus (1484–86)",
@@ -74,6 +77,7 @@ const museumData = [
       "Baroque art deployed dramatic light, intense emotion, and dynamic movement to engage viewers viscerally—often in service of the Catholic Church's Counter-Reformation. Rococo followed as a lighter, more playful aristocratic style of ornamental excess.",
     imagePlaceholder: "IV",
     accent: "#3d3d3d",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
     slug: "baroque-rococo",
     highlights: [
       "Caravaggio — Calling of St. Matthew (1599–1600)",
@@ -96,6 +100,7 @@ const museumData = [
       "Neoclassicism returned to Greco-Roman ideals of order and reason amid Enlightenment philosophy. Romanticism reacted with emotion, the sublime landscape, and the individual imagination—setting the stage for all modern art movements.",
     imagePlaceholder: "V",
     accent: "#474747",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
     slug: "neoclassicism-romanticism",
     highlights: [
       "David — Oath of the Horatii (1784)",
@@ -118,6 +123,7 @@ const museumData = [
       "Abandoning studio conventions, Impressionists painted outdoors capturing fleeting light and atmosphere. Their successors pushed further—Cézanne toward structure, Van Gogh toward emotion, Gauguin toward the primitive—laying every foundation for 20th-century modernism.",
     imagePlaceholder: "VI",
     accent: "#555",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/1280px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
     slug: "impressionism",
     highlights: [
       "Monet — Impression, Sunrise (1872)",
@@ -141,6 +147,7 @@ const museumData = [
       "A radical rupture with tradition—Cubism shattered form, Surrealism probed the unconscious, Abstract Expressionism evacuated all figuration. This was art as philosophy, psychology, and political resistance compressed into paint and steel.",
     imagePlaceholder: "VII",
     accent: "#222",
+    bgImage: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
     slug: "modern-art",
     highlights: [
       "Picasso — Les Demoiselles d'Avignon (1907)",
@@ -164,6 +171,7 @@ const museumData = [
       "Contemporary art resists definition by design. Conceptualism, video, installation, performance, digital media, and social practice all coexist. Art is now a global, plural conversation about identity, power, environment, and technology.",
     imagePlaceholder: "VIII",
     accent: "#111",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kusama_at_her_studio.jpg/1280px-Kusama_at_her_studio.jpg",
     slug: "contemporary-art",
     highlights: [
       "Warhol — Marilyn Diptych (1962)",
