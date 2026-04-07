@@ -1,93 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Chronos Gallery</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="layout">
-      <nav class="sidebar" aria-label="Timeline Navigation">
-        <h2>The Chronos Gallery</h2>
-        <ul>
-          <li><a href="#prehistoric">Prehistoric</a></li>
-          <li><a href="#ancient">Ancient World</a></li>
-          <li><a href="#middle-ages">Middle Ages</a></li>
-          <li><a href="#renaissance-barock">Renaissance & Baroque</a></li>
-          <li><a href="#modern">Modern (1900–1945)</a></li>
-          <li><a href="#mid-century">Mid-Century (1945–1970)</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Museum Timeline — Chronology of Art</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HAMBURGER BUTTON (mobile only) -->
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <nav class="mobile-overlay" id="mobileOverlay" aria-hidden="true">
+    <button class="overlay-close" id="overlayClose" aria-label="Close navigation">&#215;</button>
+    <ul class="overlay-links" id="overlayLinks"></ul>
+  </nav>
+
+  <div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <span class="logo-line">MUSEUM</span>
+        <span class="logo-sub">CHRONOLOGY</span>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarLinks"></ul>
       </nav>
+      <div class="sidebar-footer">
+        <span>© 2025</span>
+      </div>
+    </aside>
 
-      <main class="content">
-        <section id="hero" class="hero">
-          <h1>The Chronos Gallery</h1>
-          <p>
-            An interactive museum timeline illuminating art movements from ancient cave paintings to mid-century modernism. Explore evolving styles, artists, and ideas in a Swiss minimalist layout.
-          </p>
-        </section>
+    <!-- MAIN CONTENT -->
+    <main class="content" id="content">
+      <header class="page-header">
+        <p class="header-eyebrow">Permanent Collection</p>
+        <h1 class="page-title">Art Through<br>the Ages</h1>
+        <div class="header-rule"></div>
+      </header>
 
-        <section id="prehistoric" class="era-section">
-          <h2>Prehistoric</h2>
-          <article class="card featured">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>Cave Paintings</h3>
-            <p>Stone age wall art showing early human stories and symbols.</p>
-            <a class="button" href="#">Learn More</a>
-          </article>
-        </section>
+      <div id="sectionsContainer"></div>
+    </main>
 
-        <section id="ancient" class="era-section">
-          <h2>Ancient World</h2>
-          <article class="card">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>Egyptian</h3>
-            <p>Hieroglyphs, monumental sculpture and sacred architecture.</p>
-            <a class="button" href="#">Learn More</a>
-          </article>
-        </section>
+  </div>
 
-        <section id="middle-ages" class="era-section">
-          <h2>Middle Ages</h2>
-          <article class="card">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>Gothic</h3>
-            <p>Cathedrals with soaring light, stained glass, and intricate details.</p>
-            <a class="button" href="#">Learn More</a>
-          </article>
-        </section>
-
-        <section id="renaissance-barock" class="era-section">
-          <h2>Renaissance & Baroque</h2>
-          <article class="card">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>High Renaissance</h3>
-            <p>Balanced composition, perspective, and classical ideals.</p>
-            <a class="button" href="#">Learn More</a>
-          </article>
-        </section>
-
-        <section id="modern" class="era-section">
-          <h2>Modern (1900–1945)</h2>
-          <article class="card featured">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>Bauhaus</h3>
-            <p>A movement combining art, craft, technology and functional design.</p>
-            <a class="button" href="https://www.metmuseum.org/essays/the-bauhaus-1919-1933" target="_blank" rel="noreferrer">Learn More</a>
-          </article>
-        </section>
-
-        <section id="mid-century" class="era-section">
-          <h2>Mid-Century (1945–1970)</h2>
-          <article class="card">
-            <div class="image-placeholder">Image Placeholder</div>
-            <h3>Abstract Expressionism</h3>
-            <p>Large-scale gesture and color fields that changed the course of painting.</p>
-            <a class="button" href="#">Learn More</a>
-          </article>
-        </section>
-      </main>
-    </div>
-  </body>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
