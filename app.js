@@ -70,7 +70,26 @@ function renderNav() {
   });
 }
 
-// ─── Smooth Scroll ────────────────────────────────────────────────────────────
+// ─── Smooth Scroll & Lenis ────────────────────────────────────────────────────
+let lenis;
+
+function initLenis() {
+  lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    direction: "vertical",
+    gestureDirection: "vertical",
+    smooth: true,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+}
+
 function initSmoothScroll() {
   document.addEventListener("click", (e) => {
     const link = e.target.closest("a[data-target]");
@@ -81,7 +100,11 @@ function initSmoothScroll() {
     const target   = document.getElementById(targetId);
     if (!target) return;
 
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (lenis) {
+      lenis.scrollTo(target);
+    } else {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
 
     // Close mobile overlay if open
     closeMobileMenu();
@@ -171,6 +194,7 @@ function initMobileMenu() {
 // ─── Boot ──────────────────────────────────────────────────────────────────────
 renderSections();
 renderNav();
+initLenis();
 initSmoothScroll();
 initActiveTracking();
 initEntranceAnimations();
