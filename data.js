@@ -31,7 +31,7 @@ const museumData = [
       "Dominated by religious iconography and manuscript illumination, medieval art prioritized spiritual meaning over naturalistic representation. Gothic cathedrals became total works of art—architecture, sculpture, and stained glass unified in devotional purpose.",
     imagePlaceholder: "II",
     accent: "#2a2a2a",
-    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1280px-GoldenHaggadahPlague.jpg",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Lorenzetti_amb.effect2.jpg/960px-Lorenzetti_amb.effect2.jpg",
     slug: "medieval-art",
     highlights: [
       "Book of Kells illuminated manuscript (~800 CE)",
