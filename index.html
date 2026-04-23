@@ -31,6 +31,7 @@
         <ul id="sidebarLinks"></ul>
       </nav>
       <div class="sidebar-footer">
+        <a href="compare.html" class="sidebar-compare-link">Compare Movements</a>
         <span>© 2025</span>
       </div>
     </aside>
@@ -43,38 +44,8 @@
         <p class="page-intro">
           A cinematic timeline of world art movements, arranged chronologically with contextual museum notes.
         </p>
-        <div class="explore-controls" aria-label="Explore eras">
-          <label class="control-group">
-            <span class="control-label">Search</span>
-            <input id="searchInput" class="control-input" type="search" placeholder="Artist, movement, period..." />
-          </label>
-          <label class="control-group">
-            <span class="control-label">Filter</span>
-            <select id="filterSelect" class="control-input">
-              <option value="all">All Eras</option>
-            </select>
-          </label>
-        </div>
         <div class="header-rule"></div>
       </header>
-
-      <section class="compare-panel fade-target" id="comparePanel" aria-label="Compare movements">
-        <div class="compare-head">
-          <p class="compare-kicker">Compare Movements</p>
-          <h2 class="compare-title">Contrast two eras quickly</h2>
-        </div>
-        <div class="compare-controls">
-          <label class="control-group">
-            <span class="control-label">Movement A</span>
-            <select id="compareSelectA" class="control-input"></select>
-          </label>
-          <label class="control-group">
-            <span class="control-label">Movement B</span>
-            <select id="compareSelectB" class="control-input"></select>
-          </label>
-        </div>
-        <div id="compareResult" class="compare-result"></div>
-      </section>
 
       <div id="sectionsContainer"></div>
     </main>

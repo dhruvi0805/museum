@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compare Movements — Museum Chronology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="compare-page">
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="mobile-overlay" id="mobileOverlay" aria-hidden="true">
+    <button class="overlay-close" id="overlayClose" aria-label="Close navigation">&#215;</button>
+    <ul class="overlay-links" id="overlayLinks"></ul>
+  </nav>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-line">MUSEUM</span>
+      <span class="logo-sub">CHRONOLOGY</span>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a href="index.html" class="sidebar-link">
+            <span class="nav-num">←</span>
+            <span class="nav-label">Back to Timeline</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="compare.html" class="sidebar-compare-link">Compare Movements</a>
+      <span>© 2025</span>
+    </div>
+  </aside>
+
+  <main class="compare-layout">
+    <header class="compare-page-head">
+      <p class="compare-page-kicker">Collection Tool</p>
+      <h1 class="compare-page-title">Compare<br />Movements</h1>
+      <p class="compare-page-subtitle">
+        Select two movements to compare period, mood, key figures, and visual context.
+        Click any image or movement title to open its movement page.
+      </p>
+    </header>
+
+    <section class="compare-page-controls">
+      <label class="control-group">
+        <span class="control-label">Movement A</span>
+        <select id="compareSelectA" class="control-input"></select>
+      </label>
+      <label class="control-group">
+        <span class="control-label">Movement B</span>
+        <select id="compareSelectB" class="control-input"></select>
+      </label>
+    </section>
+
+    <section id="compareGrid" class="compare-grid"></section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="compare.js"></script>
+</body>
+</html>

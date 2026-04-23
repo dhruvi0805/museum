@@ -40,7 +40,12 @@ export default function ComparePage() {
           {[eraA, eraB].map((item) =>
             item ? (
               <article key={item.slug} className="rounded-xl border border-white/20 bg-white/10 p-5">
-                <h2 className="text-2xl font-semibold uppercase">{item.title}</h2>
+                <Link href={`/detail?era=${item.slug}`} className="block overflow-hidden rounded-lg">
+                  <div className="h-52 w-full bg-cover bg-center transition duration-300 hover:scale-[1.02]" style={{ backgroundImage: `url(${item.bgImage})` }} />
+                </Link>
+                <Link href={`/detail?era=${item.slug}`}>
+                  <h2 className="mt-4 text-2xl font-semibold uppercase hover:underline">{item.title}</h2>
+                </Link>
                 <p className="mt-1 text-xs uppercase tracking-[0.14em] text-white/70">{item.period}</p>
                 <p className="mt-4 text-sm leading-7 text-white/85">{item.heroSubtitle}</p>
                 <ul className="mt-4 space-y-2 text-sm text-white/80">
@@ -48,6 +53,12 @@ export default function ComparePage() {
                   <li><strong>Medium:</strong> {item.facts.medium}</li>
                   <li><strong>Key Figures:</strong> {item.facts.keyFigures}</li>
                 </ul>
+                <Link
+                  href={`/detail?era=${item.slug}`}
+                  className="mt-5 inline-flex rounded-md border border-white/35 px-3 py-2 text-xs uppercase tracking-[0.15em] text-white/85 hover:bg-white/15"
+                >
+                  Open Movement →
+                </Link>
               </article>
             ) : null,
           )}

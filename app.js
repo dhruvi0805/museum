@@ -4,16 +4,6 @@ const overlayLinks = document.getElementById("overlayLinks");
 const hamburger = document.getElementById("hamburger");
 const mobileOverlay = document.getElementById("mobileOverlay");
 const overlayClose = document.getElementById("overlayClose");
-const searchInput = document.getElementById("searchInput");
-const filterSelect = document.getElementById("filterSelect");
-const compareSelectA = document.getElementById("compareSelectA");
-const compareSelectB = document.getElementById("compareSelectB");
-const compareResult = document.getElementById("compareResult");
-
-const state = {
-  query: "",
-  facet: "all",
-};
 
 let lenis;
 
@@ -24,7 +14,6 @@ function renderSections() {
     section.className = "era-section fade-target";
     section.id = `era-${era.slug}`;
     section.setAttribute("data-index", index);
-    section.setAttribute("data-facet", era.filterFacet || "all");
 
     const labelNum = String(index + 1).padStart(2, "0");
 
@@ -77,85 +66,15 @@ function renderNav() {
     oli.innerHTML = overlayItem;
     overlayLinks.appendChild(oli);
   });
-}
 
-function initFilterControls() {
-  const facets = Array.from(new Set(museumData.map((era) => era.filterFacet).filter(Boolean)));
-  facets.forEach((facet) => {
-    const opt = document.createElement("option");
-    opt.value = facet;
-    opt.textContent = facet;
-    filterSelect.appendChild(opt);
-  });
-
-  searchInput.addEventListener("input", (event) => {
-    state.query = event.target.value.trim().toLowerCase();
-    applyFilters();
-  });
-
-  filterSelect.addEventListener("change", (event) => {
-    state.facet = event.target.value;
-    applyFilters();
-  });
-}
-
-function applyFilters() {
-  const sections = document.querySelectorAll(".era-section");
-  sections.forEach((section) => {
-    const slug = section.id.replace("era-", "");
-    const era = museumData.find((item) => item.slug === slug);
-    if (!era) return;
-
-    const searchable = [era.title, era.period, era.description, ...(era.highlights || []), ...(era.searchTags || [])]
-      .join(" ")
-      .toLowerCase();
-    const facetMatch = state.facet === "all" || era.filterFacet === state.facet;
-    const queryMatch = !state.query || searchable.includes(state.query);
-    section.classList.toggle("hidden-era", !(facetMatch && queryMatch));
-  });
-}
-
-function initComparePanel() {
-  museumData.forEach((era) => {
-    const optionA = document.createElement("option");
-    optionA.value = era.slug;
-    optionA.textContent = era.title;
-    compareSelectA.appendChild(optionA);
-
-    const optionB = document.createElement("option");
-    optionB.value = era.slug;
-    optionB.textContent = era.title;
-    compareSelectB.appendChild(optionB);
-  });
-
-  compareSelectA.value = museumData[1].slug;
-  compareSelectB.value = museumData[6].slug;
-
-  const onCompareChange = () => {
-    const eraA = museumData.find((era) => era.slug === compareSelectA.value);
-    const eraB = museumData.find((era) => era.slug === compareSelectB.value);
-    if (!eraA || !eraB) return;
-    compareResult.innerHTML = `
-      <article>
-        <p class="compare-card-title">${eraA.title}</p>
-        <p class="compare-item"><strong>Period:</strong> ${eraA.period}</p>
-        <p class="compare-item"><strong>Mood:</strong> ${eraA.visualMood}</p>
-        <p class="compare-item"><strong>Medium focus:</strong> ${eraA.facts.medium}</p>
-        <p class="compare-item"><strong>Key figures:</strong> ${eraA.facts.keyFigures}</p>
-      </article>
-      <article>
-        <p class="compare-card-title">${eraB.title}</p>
-        <p class="compare-item"><strong>Period:</strong> ${eraB.period}</p>
-        <p class="compare-item"><strong>Mood:</strong> ${eraB.visualMood}</p>
-        <p class="compare-item"><strong>Medium focus:</strong> ${eraB.facts.medium}</p>
-        <p class="compare-item"><strong>Key figures:</strong> ${eraB.facts.keyFigures}</p>
-      </article>
-    `;
-  };
-
-  compareSelectA.addEventListener("change", onCompareChange);
-  compareSelectB.addEventListener("change", onCompareChange);
-  onCompareChange();
+  const compareOverlayLi = document.createElement("li");
+  compareOverlayLi.innerHTML = `
+    <a href="compare.html" class="overlay-link overlay-compare-link">
+      <span class="nav-num">↗</span>
+      <span class="nav-label">Compare Movements</span>
+    </a>
+  `;
+  overlayLinks.appendChild(compareOverlayLi);
 }
 
 function initLenis() {
@@ -196,7 +115,7 @@ function initActiveTracking() {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (!entry.isIntersecting || entry.target.classList.contains("hidden-era")) return;
+        if (!entry.isIntersecting) return;
         const slug = entry.target.id.replace("era-", "");
         const allLinks = document.querySelectorAll("[data-target]");
         allLinks.forEach((link) => {
@@ -290,8 +209,6 @@ function initMobileMenu() {
 
 renderSections();
 renderNav();
-initFilterControls();
-initComparePanel();
 initLenis();
 initSmoothScroll();
 initActiveTracking();
