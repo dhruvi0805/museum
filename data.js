@@ -77,7 +77,7 @@ const museumData = [
       "Baroque art deployed dramatic light, intense emotion, and dynamic movement to engage viewers viscerally—often in service of the Catholic Church's Counter-Reformation. Rococo followed as a lighter, more playful aristocratic style of ornamental excess.",
     imagePlaceholder: "IV",
     accent: "#3d3d3d",
-    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+    bgImage: "https://www.invaluable.com/blog/wp-content/uploads/sites/77/2018/06/Wikimedia-Watteau-Edited-670x450.jpg",
     slug: "baroque-rococo",
     highlights: [
       "Caravaggio — Calling of St. Matthew (1599–1600)",
@@ -100,7 +100,7 @@ const museumData = [
       "Neoclassicism returned to Greco-Roman ideals of order and reason amid Enlightenment philosophy. Romanticism reacted with emotion, the sublime landscape, and the individual imagination—setting the stage for all modern art movements.",
     imagePlaceholder: "V",
     accent: "#474747",
-    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    bgImage: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435922/797343/main-image",
     slug: "neoclassicism-romanticism",
     highlights: [
       "David — Oath of the Horatii (1784)",
@@ -123,7 +123,7 @@ const museumData = [
       "Abandoning studio conventions, Impressionists painted outdoors capturing fleeting light and atmosphere. Their successors pushed further—Cézanne toward structure, Van Gogh toward emotion, Gauguin toward the primitive—laying every foundation for 20th-century modernism.",
     imagePlaceholder: "VI",
     accent: "#555",
-    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/1280px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
     slug: "impressionism",
     highlights: [
       "Monet — Impression, Sunrise (1872)",
@@ -171,7 +171,7 @@ const museumData = [
       "Contemporary art resists definition by design. Conceptualism, video, installation, performance, digital media, and social practice all coexist. Art is now a global, plural conversation about identity, power, environment, and technology.",
     imagePlaceholder: "VIII",
     accent: "#111",
-    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kusama_at_her_studio.jpg/1280px-Kusama_at_her_studio.jpg",
+    bgImage: "https://cdn.sanity.io/images/476nwnl9/production/39bda21b17b16ea08c36caacee62c5792b698477-5566x3426.jpg?auto=format&fit=crop&h=667&rect=0%2C0%2C5566%2C1856&w=2000",
     slug: "contemporary-art",
     highlights: [
       "Warhol — Marilyn Diptych (1962)",
