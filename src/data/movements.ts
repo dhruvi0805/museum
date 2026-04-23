@@ -1,65 +1,155 @@
-export type ArtMovement = {
-  id: string;
+export type MuseumObject = {
   title: string;
-  era: string;
-  period: string;
-  description: string;
-  featured?: boolean;
+  artist: string;
+  date: string;
+  medium: string;
+  context: string;
+  story: string;
 };
 
-export const artMovements: ArtMovement[] = [
-  { id: "cave-paintings", title: "Cave Paintings", era: "Prehistoric", period: "c. 40,000–10,000 BCE", description: "Early human expression through ochre and charcoal murals in deep caves." },
-  { id: "venus-figurines", title: "Venus Figurines", era: "Prehistoric", period: "c. 28,000–20,000 BCE", description: "Small statuettes emphasizing fertility and body form in Paleolithic culture." },
-  { id: "megalithic-structures", title: "Megalithic Structures", era: "Prehistoric", period: "c. 4500–1500 BCE", description: "Large stone constructions like dolmens and henges showing ritual site design." },
-  { id: "mesopotamian", title: "Mesopotamian", era: "Ancient", period: "c. 3500–539 BCE", description: "Ziggurats, cylinder seals and stylized figural narrative from the Fertile Crescent." },
-  { id: "egyptian", title: "Egyptian", era: "Ancient", period: "c. 3100–30 BCE", description: "Hierarchical scale, symbolic frontalism and funerary monumentality of pharaonic art." },
-  { id: "greek-archaic", title: "Greek (Archaic)", era: "Classical", period: "c. 700–480 BCE", description: "Early stone sculpture with rigid posture evolving toward naturalism." },
-  { id: "greek-classical", title: "Greek (Classical)", era: "Classical", period: "c. 480–323 BCE", description: "Idealized human anatomy, balanced proportions, and architectural orders." },
-  { id: "greek-hellenistic", title: "Greek (Hellenistic)", era: "Classical", period: "c. 323–31 BCE", description: "Dramatic movement, emotion, and realism in sculpture and painting." },
-  { id: "roman", title: "Roman", era: "Ancient", period: "c. 509 BCE–476 CE", description: "Engineering, realistic portraiture and urban public monuments." },
-  { id: "ancient-chinese", title: "Ancient Chinese", era: "Ancient", period: "c. 1600 BCE–220 CE", description: "Bronze ritual vessels, calligraphy foundations and early landscape traditions." },
-  { id: "ancient-indian", title: "Ancient Indian", era: "Ancient", period: "c. 2500 BCE–600 CE", description: "Symbolic sculpture and narrative reliefs of religious traditions." },
-  { id: "mesoamerican", title: "Mesoamerican", era: "Ancient", period: "c. 1500 BCE–1521 CE", description: "Monumental stelae, codices, and ritual architectural geometry." },
-  { id: "byzantine", title: "Byzantine", era: "Medieval", period: "c. 330–1453", description: "Gold-ground mosaics, icon painting, and spiritual abstraction." },
-  { id: "early-christian", title: "Early Christian", era: "Medieval", period: "c. 2nd–6th c.", description: "Catacomb murals, symbolic Christian imagery, and basilica architecture." },
-  { id: "islamic-art", title: "Islamic Art", era: "Medieval", period: "c. 7th c.–present", description: "Geometric pattern, calligraphy, and architectural ornamentation across regions." },
-  { id: "romanesque", title: "Romanesque", era: "Medieval", period: "c. 1000–1150", description: "Massive stone churches, rounded arches and sculpted portal programs." },
-  { id: "gothic", title: "Gothic", era: "Medieval", period: "c. 1140–1500", description: "Pointed arches, stained glass, and vertical light-filled cathedrals." },
-  { id: "insular", title: "Insular", era: "Medieval", period: "c. 600–900", description: "Illuminated manuscripts and intricate metalwork from the British Isles." },
-  { id: "early-renaissance", title: "Early Renaissance", era: "Renaissance", period: "c. 1400–1500", description: "Linear perspective, naturalistic space, and revived classical forms." },
-  { id: "high-renaissance", title: "High Renaissance", era: "Renaissance", period: "c. 1500–1527", description: "Masterpieces of compositional balance and anatomical perfection." },
-  { id: "northern-renaissance", title: "Northern Renaissance", era: "Renaissance", period: "c. 1450–1600", description: "Detailed oil painting and symbolic domestic scenes." },
-  { id: "mannerism", title: "Mannerism", era: "Renaissance", period: "c. 1520–1600", description: "Elongated figures, complex space and artificial elegance." },
-  { id: "baroque", title: "Baroque", era: "Baroque", period: "c. 1600–1750", description: "Emotionally charged drama, movement and theatrical light effects." },
-  { id: "dutch-golden-age", title: "Dutch Golden Age", era: "Baroque", period: "c. 1600–1700", description: "Genre scenes, portraiture, and refined realism in everyday life." },
-  { id: "rococo", title: "Rococo", era: "Baroque", period: "c. 1700–1780", description: "Playful decoration, pastel color and intimate aristocratic fantasy." },
-  { id: "neoclassicism", title: "Neoclassicism", era: "Modern", period: "c. 1760–1830", description: "Return to classical restraint, heroic subjects and clarity." },
-  { id: "romanticism", title: "Romanticism", era: "Modern", period: "c. 1800–1850", description: "Emotion, nature’s sublimity, and national myth-making." },
-  { id: "realism", title: "Realism", era: "Modern", period: "c. 1840–1880", description: "Depiction of ordinary life with social awareness and naturalism." },
-  { id: "academic-art", title: "Academic Art", era: "Modern", period: "c. 1810–1900", description: "Institutionalized craft focus, historical narrative and polish." },
-  { id: "impressionism", title: "Impressionism", era: "19th Century", period: "c. 1860–1890", description: "Light, color and momentary perception in plein-air painting." },
-  { id: "claude-monet", title: "Claude Monet", era: "Impressionism", period: "1840–1926", description: "French impressionist master of light, water lilies and atmospheric series.", featured: true },
-  { id: "post-impressionism", title: "Post-Impressionism", era: "19th Century", period: "c. 1885–1910", description: "Individual expressive styles that extended color and form experimentation." },
-  { id: "symbolism", title: "Symbolism", era: "Modern", period: "c. 1880–1910", description: "Mystical imagery and poetic suggestion over naturalism." },
-  { id: "pre-raphaelite", title: "Pre-Raphaelite", era: "Modern", period: "c. 1848–1900", description: "Detailed realism, medieval themes and moral narrative in painting." },
-  { id: "art-nouveau", title: "Art Nouveau", era: "Modern", period: "c. 1890–1910", description: "Organic line, stylized nature and decorative integration in arts." },
-  { id: "early-modern", title: "Early Modern", era: "Early Modern", period: "1900–1945", description: "Rapid innovation from decorative to conceptual modern styles." },
-  { id: "fauvism", title: "Fauvism", era: "Early Modern", period: "c. 1904–1910", description: "Wild color and simplified form foreground emotional response." },
-  { id: "expressionism", title: "Expressionism", era: "Early Modern", period: "c. 1905–1930", description: "Subjective distortion for psychological and emotional effect." },
-  { id: "cubism", title: "Cubism", era: "Early Modern", period: "c. 1907–1920", description: "Fragmented planes and multiple viewpoints in analytical reduction." },
-  { id: "futurism", title: "Futurism", era: "Early Modern", period: "c. 1909–1918", description: "Speed, mechanization and violent energy in art language." },
-  { id: "dada", title: "Dada", era: "Early Modern", period: "c. 1916–1924", description: "Anti-art provocation, chance aesthetics and societal critique." },
-  { id: "surrealism", title: "Surrealism", era: "Early Modern", period: "c. 1924–1966", description: "Dream imagery and unconscious process in visual poetry." },
-  { id: "constructivism", title: "Constructivism", era: "Early Modern", period: "c. 1915–1934", description: "Art as social practice with industrial materials and abstract forms." },
-  { id: "de-stijl", title: "De Stijl", era: "Early Modern", period: "c. 1917–1931", description: "Grid-based abstraction and primary color harmony." },
-  { id: "bauhaus", title: "Bauhaus", era: "Early Modern", period: "1919–1933", description: "Integrated design school combining art, craft and industrial production.", featured: true },
-  { id: "suprematism", title: "Suprematism", era: "Early Modern", period: "c. 1915–1928", description: "Pure geometric abstraction focused on spiritual supremacy of feeling." },
-  { id: "mid-century", title: "Mid-Century", era: "Mid-Century", period: "1945–1970", description: "Postwar global modernism pushing scale, color and conceptual agendas." },
-  { id: "abstract-expressionism", title: "Abstract Expressionism", era: "Mid-Century", period: "c. 1940–1965", description: "Large, gestural canvases and action painting as personal liberation." },
-  { id: "color-field", title: "Color Field", era: "Mid-Century", period: "c. 1948–1970", description: "Large unified color surfaces evoking contemplative immersion." },
-  { id: "minimalism", title: "Minimalism", era: "Mid-Century", period: "c. 1960–1975", description: "An economy of form and industrial materials focused on objecthood." },
-  { id: "pop-art", title: "Pop Art", era: "Mid-Century", period: "c. 1955–1970", description: "Commercial imagery and consumer culture adopted as art." },
-  { id: "op-art", title: "Op Art", era: "Mid-Century", period: "c. 1964–1972", description: "Optical vibration via geometric pattern and perception tricks." },
-  { id: "fluxus", title: "Fluxus", era: "Mid-Century", period: "c. 1960–1978", description: "Intermedia events, instruction scores, and playful performance art." },
-  { id: "wassily-kandinsky", title: "Wassily Kandinsky", era: "Abstract Expressionism", period: "1866–1944", description: "Key pioneer of abstraction and color-music theory in modern art.", featured: true },
+export type ArtEra = {
+  id: number;
+  slug: string;
+  title: string;
+  period: string;
+  description: string;
+  heroSubtitle: string;
+  visualMood: string;
+  bgImage: string;
+  highlights: string[];
+  searchTags: string[];
+  filterFacet: "ancient" | "medieval" | "early-modern" | "mid-century" | "modernism" | "postmodern";
+  facts: {
+    medium: string;
+    geography: string;
+    keyFigures: string;
+  };
+  objects: MuseumObject[];
+};
+
+export const artMovements: ArtEra[] = [
+  {
+    id: 1,
+    slug: "ancient-art",
+    title: "Ancient Art",
+    period: "30,000 BCE – 400 CE",
+    description: "The earliest known artistic expressions—cave paintings, fertility figures, and monumental architecture—emerged as humanity sought to make meaning from the world.",
+    heroSubtitle: "Ancient Art explores ritual and symbolic expression across early civilizations.",
+    visualMood: "Ritual and symbolic",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1280px-Lascaux_painting.jpg",
+    filterFacet: "ancient",
+    searchTags: ["lascaux", "greek", "roman", "phidias"],
+    highlights: ["Cave paintings of Lascaux", "Venus of Willendorf", "Discobolus", "Pompeii frescoes"],
+    facts: { medium: "Stone, pigment, bronze, fresco", geography: "Africa, Europe, Near East, Asia", keyFigures: "Phidias, Praxiteles" },
+    objects: [
+      { title: "Cave paintings of Lascaux", artist: "Unknown", date: "~17,000 BCE", medium: "Pigment on cave wall", context: "Early symbolic narrative", story: "Marks one of the earliest known image systems." },
+      { title: "Venus of Willendorf", artist: "Unknown", date: "~25,000 BCE", medium: "Limestone", context: "Portable ritual object", story: "Shows an abstracted focus on fertility and body symbolism." },
+      { title: "Discobolus", artist: "Myron", date: "Classical period", medium: "Marble and bronze copies", context: "Greek ideal proportion", story: "Captures athletic movement and mathematical harmony." },
+    ],
+  },
+  {
+    id: 2, slug: "medieval-art", title: "Medieval Art", period: "400 – 1400 CE",
+    description: "Dominated by religious iconography and manuscript illumination, medieval art prioritized spiritual meaning over naturalistic representation.",
+    heroSubtitle: "Medieval Art explores sacred and devotional image-making through churches and manuscripts.",
+    visualMood: "Sacred and devotional",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1280px-GoldenHaggadahPlague.jpg",
+    filterFacet: "medieval", searchTags: ["book of kells", "gothic", "ravenna"],
+    highlights: ["Book of Kells", "Bayeux Tapestry", "Notre-Dame rose windows", "Byzantine mosaics"],
+    facts: { medium: "Tempera, gold leaf, stained glass, fresco", geography: "Europe, Byzantium", keyFigures: "Giotto di Bondone" },
+    objects: [
+      { title: "Book of Kells", artist: "Monastic artists", date: "~800 CE", medium: "Illuminated manuscript", context: "Insular Christian art", story: "Combines calligraphy and ornate symbolic ornament." },
+      { title: "Bayeux Tapestry", artist: "Workshop unknown", date: "1070s", medium: "Embroidery", context: "Narrative record", story: "Chronicles political conquest through sequential scenes." },
+      { title: "Ravenna mosaics", artist: "Byzantine workshops", date: "6th century", medium: "Glass mosaic", context: "Liturgical interiors", story: "Uses gold-ground light to suggest spiritual presence." },
+    ],
+  },
+  {
+    id: 3, slug: "renaissance", title: "Renaissance", period: "1400 – 1600 CE",
+    description: "A rebirth of classical learning, the Renaissance placed human experience at the center of art.",
+    heroSubtitle: "Renaissance explores humanist and analytical approaches to perspective and anatomy.",
+    visualMood: "Humanist and analytical",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    filterFacet: "early-modern", searchTags: ["leonardo", "michelangelo", "raphael"],
+    highlights: ["Birth of Venus", "The Last Supper", "Sistine Chapel ceiling", "School of Athens"],
+    facts: { medium: "Oil on canvas/panel, marble, fresco", geography: "Italy, Flanders, Germany", keyFigures: "Leonardo, Michelangelo, Raphael, Titian" },
+    objects: [
+      { title: "Birth of Venus", artist: "Sandro Botticelli", date: "1484–86", medium: "Tempera on canvas", context: "Myth revived via humanism", story: "Mythic narrative and idealized body return to center stage." },
+      { title: "The Last Supper", artist: "Leonardo da Vinci", date: "1495–98", medium: "Mural", context: "Perspective as theology", story: "Spatial geometry orchestrates emotional drama." },
+      { title: "School of Athens", artist: "Raphael", date: "1509–11", medium: "Fresco", context: "Classical philosophy", story: "Assembles ancient thinkers within an ideal architectural order." },
+    ],
+  },
+  {
+    id: 4, slug: "baroque-rococo", title: "Baroque & Rococo", period: "1600 – 1750 CE",
+    description: "Baroque art deployed dramatic light, intense emotion, and dynamic movement to engage viewers viscerally.",
+    heroSubtitle: "Baroque and Rococo explore theatrical and ornamental visual spectacle.",
+    visualMood: "Theatrical and ornamental",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+    filterFacet: "early-modern", searchTags: ["caravaggio", "rembrandt", "vermeer"],
+    highlights: ["Calling of St. Matthew", "Night Watch", "Girl with a Pearl Earring", "Ecstasy of Saint Teresa"],
+    facts: { medium: "Oil on canvas, marble, gilt stucco", geography: "Italy, Netherlands, France, Spain", keyFigures: "Caravaggio, Rembrandt, Bernini, Watteau" },
+    objects: [
+      { title: "Calling of St. Matthew", artist: "Caravaggio", date: "1599–1600", medium: "Oil on canvas", context: "Chiaroscuro drama", story: "Light slices through darkness to stage conversion." },
+      { title: "Night Watch", artist: "Rembrandt", date: "1642", medium: "Oil on canvas", context: "Civic portraiture", story: "Transforms group portrait into kinetic narrative." },
+      { title: "Ecstasy of Saint Teresa", artist: "Gian Lorenzo Bernini", date: "1647–52", medium: "Marble", context: "Counter-Reformation theatrics", story: "Sculpture becomes staged spiritual performance." },
+    ],
+  },
+  {
+    id: 5, slug: "neoclassicism-romanticism", title: "Neoclassicism & Romanticism", period: "1750 – 1850 CE",
+    description: "Neoclassicism returned to Greco-Roman ideals while Romanticism reacted with emotion and sublime nature.",
+    heroSubtitle: "This era explores reason versus emotion in modern European painting.",
+    visualMood: "Reason versus emotion",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    filterFacet: "modernism", searchTags: ["goya", "turner", "delacroix"],
+    highlights: ["Oath of the Horatii", "Saturn Devouring His Son", "Liberty Leading the People", "Rain, Steam and Speed"],
+    facts: { medium: "Oil on canvas, marble", geography: "France, England, Spain", keyFigures: "David, Goya, Turner, Delacroix" },
+    objects: [
+      { title: "Oath of the Horatii", artist: "Jacques-Louis David", date: "1784", medium: "Oil on canvas", context: "Civic virtue", story: "Presents idealized sacrifice through severe geometry." },
+      { title: "Liberty Leading the People", artist: "Eugène Delacroix", date: "1830", medium: "Oil on canvas", context: "Political revolution", story: "Turns revolution into allegorical momentum." },
+      { title: "Rain, Steam and Speed", artist: "J.M.W. Turner", date: "1844", medium: "Oil on canvas", context: "Industrial sublime", story: "Atmospheric blur anticipates modern perception." },
+    ],
+  },
+  {
+    id: 6, slug: "impressionism", title: "Impressionism & Post-Impressionism", period: "1860 – 1910 CE",
+    description: "Impressionists painted outdoors capturing fleeting light; successors pushed structure and emotion.",
+    heroSubtitle: "This era explores atmospheric and fleeting perception in modern painting.",
+    visualMood: "Atmospheric and fleeting",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/1280px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
+    filterFacet: "modernism", searchTags: ["monet", "van gogh", "cezanne"],
+    highlights: ["Impression, Sunrise", "Luncheon of the Boating Party", "Starry Night", "La Grande Jatte"],
+    facts: { medium: "Oil on canvas, pastel", geography: "France", keyFigures: "Monet, Renoir, Degas, Van Gogh, Cézanne" },
+    objects: [
+      { title: "Impression, Sunrise", artist: "Claude Monet", date: "1872", medium: "Oil on canvas", context: "Name-giving image", story: "Captures transient color and light over precise form." },
+      { title: "Starry Night", artist: "Vincent van Gogh", date: "1889", medium: "Oil on canvas", context: "Expressive brushwork", story: "Emotion drives line and color into a turbulent sky." },
+      { title: "La Grande Jatte", artist: "Georges Seurat", date: "1884–86", medium: "Oil on canvas", context: "Optical science", story: "Builds modern leisure through methodical points of color." },
+    ],
+  },
+  {
+    id: 7, slug: "modern-art", title: "Modern Art", period: "1905 – 1960 CE",
+    description: "A radical rupture with tradition where Cubism, Surrealism, and abstraction redefined visual language.",
+    heroSubtitle: "Modern Art explores experimental and disruptive forms of representation.",
+    visualMood: "Experimental and disruptive",
+    bgImage: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+    filterFacet: "mid-century", searchTags: ["picasso", "dali", "pollock", "bauhaus"],
+    highlights: ["Les Demoiselles d'Avignon", "Fountain", "The Persistence of Memory", "No. 31"],
+    facts: { medium: "Oil, collage, readymades, enamel", geography: "France, USA, Germany", keyFigures: "Picasso, Duchamp, Pollock, Rothko, Dalí" },
+    objects: [
+      { title: "Les Demoiselles d'Avignon", artist: "Pablo Picasso", date: "1907", medium: "Oil on canvas", context: "Proto-Cubism", story: "Fractures anatomy and perspective into planar confrontation." },
+      { title: "Fountain", artist: "Marcel Duchamp", date: "1917", medium: "Readymade", context: "Institutional critique", story: "Reframes authorship and objecthood in art." },
+      { title: "The Persistence of Memory", artist: "Salvador Dalí", date: "1931", medium: "Oil on canvas", context: "Surreal dream logic", story: "Soft clocks challenge rational perception of time." },
+    ],
+  },
+  {
+    id: 8, slug: "contemporary-art", title: "Contemporary Art", period: "1960 – Present",
+    description: "Conceptual, installation, performance, and digital practices coexist in a global conversation.",
+    heroSubtitle: "Contemporary Art explores plural and critical approaches to image, identity, and systems.",
+    visualMood: "Plural and critical",
+    bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kusama_at_her_studio.jpg/1280px-Kusama_at_her_studio.jpg",
+    filterFacet: "postmodern", searchTags: ["warhol", "kusama", "ai weiwei"],
+    highlights: ["Marilyn Diptych", "Untitled (Basquiat)", "Infinity Mirror Rooms", "Sunflower Seeds"],
+    facts: { medium: "Video, neon, steel, data, performance", geography: "Global", keyFigures: "Warhol, Basquiat, Hirst, Koons, Kusama, Ai Weiwei" },
+    objects: [
+      { title: "Marilyn Diptych", artist: "Andy Warhol", date: "1962", medium: "Silkscreen ink", context: "Mass media repetition", story: "Turns celebrity into serial icon and critique." },
+      { title: "Infinity Mirror Rooms", artist: "Yayoi Kusama", date: "1965–present", medium: "Installation", context: "Immersive subjectivity", story: "Expands self and space through infinite reflection." },
+      { title: "Sunflower Seeds", artist: "Ai Weiwei", date: "2010", medium: "Porcelain installation", context: "Collective labor", story: "Transforms hand-made repetition into political commentary." },
+    ],
+  },
 ];

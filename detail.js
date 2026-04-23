@@ -42,21 +42,31 @@ if (!era) {
 
   detailContent.innerHTML = `
     <div class="detail-hero fade-target visible">
-      <div class="detail-hero-image">
+      <div class="detail-hero-image" style="background-image: url('${era.bgImage}')">
         <span class="era-placeholder-text large">${era.imagePlaceholder}</span>
       </div>
       <div class="detail-hero-text">
         <p class="detail-eyebrow"><span class="era-number-detail">${labelNum}</span> ${era.period}</p>
         <h1 class="detail-title">${era.title}</h1>
         <p class="detail-description">${era.description}</p>
+        <div class="detail-context">
+          <div class="context-card">
+            <span class="context-label">Visual Mood</span>
+            <span class="context-value">${era.visualMood}</span>
+          </div>
+          <div class="context-card">
+            <span class="context-label">Why It Matters</span>
+            <span class="context-value">${era.heroSubtitle}</span>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="detail-body fade-target visible">
       <div class="detail-section">
-        <h3 class="detail-section-title">Key Works</h3>
+        <h3 class="detail-section-title">Curated Objects</h3>
         <ul class="detail-highlights-full">
-          ${era.highlights.map((h) => `<li>${h}</li>`).join("")}
+          ${era.objects.map((obj) => `<li><strong>${obj.title}</strong><br>${obj.artist} · ${obj.date}<br>${obj.story}</li>`).join("")}
         </ul>
       </div>
 
@@ -74,6 +84,10 @@ if (!era) {
           <div class="fact-row">
             <span class="fact-label">Key Figures</span>
             <span class="fact-value">${era.facts.keyFigures}</span>
+          </div>
+          <div class="fact-row">
+            <span class="fact-label">Comparison Tags</span>
+            <span class="fact-value">${(era.compareTags || []).join(", ")}</span>
           </div>
         </div>
       </div>
@@ -106,4 +120,4 @@ function initLenis() {
   requestAnimationFrame(raf);
 }
 
-initLenis();
+initLenis();

@@ -1,75 +1,138 @@
+ "use client";
+
+import { useMemo, useState } from "react";
+import { MovementCard } from "@/components/MovementCard";
 import { artMovements } from "@/data/movements";
 
-type EraLink = {
-  era: string;
-  id: string;
-};
-
-const eraLinks: EraLink[] = Array.from(
-  artMovements
-    .map((m) => m.era)
-    .reduce((acc, era) => acc.add(era), new Set<string>()),
-).map((era) => ({ era, id: era.toLowerCase().replace(/[^a-z0-9]+/g, "-") }));
-
 export default function HomePage() {
+  const [query, setQuery] = useState("");
+  const [facet, setFacet] = useState("all");
+  const [compareA, setCompareA] = useState(artMovements[1]?.slug ?? "");
+  const [compareB, setCompareB] = useState(artMovements[6]?.slug ?? "");
+
+  const facets = useMemo(
+    () => ["all", ...Array.from(new Set(artMovements.map((movement) => movement.filterFacet)))],
+    [],
+  );
+
+  const filtered = useMemo(() => {
+    return artMovements.filter((movement) => {
+      const matchesFacet = facet === "all" || movement.filterFacet === facet;
+      const searchable = [
+        movement.title,
+        movement.period,
+        movement.description,
+        movement.heroSubtitle,
+        ...movement.highlights,
+        ...movement.searchTags,
+      ]
+        .join(" ")
+        .toLowerCase();
+      const matchesQuery = query.trim().length === 0 || searchable.includes(query.trim().toLowerCase());
+      return matchesFacet && matchesQuery;
+    });
+  }, [query, facet]);
+
+  const movementA = artMovements.find((movement) => movement.slug === compareA);
+  const movementB = artMovements.find((movement) => movement.slug === compareB);
+
   return (
-    <main className="min-h-screen bg-[#FAFAFA] text-[#1A1A1A]">
-      <div className="mx-auto grid min-h-screen max-w-7xl grid-cols-1 gap-6 p-6 lg:grid-cols-[280px_1fr]">
-        <aside className="sticky top-0 z-20 h-screen overflow-y-auto rounded-lg border border-slate-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-5 text-xl font-serif font-bold uppercase">Timeline Navigation</h2>
-          <nav aria-label="Art movement eras" className="space-y-3 text-sm font-sans">
-            {eraLinks.map((eraItem) => (
-              <a
-                key={eraItem.id}
-                href={`#${eraItem.id}`}
-                className="block rounded-md px-2 py-2 text-slate-700 transition hover:bg-slate-100 hover:text-slate-900"
-              >
-                {eraItem.era}
-              </a>
-            ))}
-          </nav>
-        </aside>
+    <main className="min-h-screen bg-[#0a0a0a] font-sans text-white">
+      <header className="mx-auto w-full max-w-7xl px-6 pb-8 pt-14 lg:px-8">
+        <p className="text-xs uppercase tracking-[0.2em] text-white/60">Permanent Collection</p>
+        <h1 className="mt-4 text-5xl font-semibold uppercase leading-[0.9] tracking-[-0.03em] md:text-7xl">
+          Art Through
+          <br />
+          The Ages
+        </h1>
+        <p className="mt-5 max-w-2xl text-sm leading-7 text-white/70">
+          Cinematic Swiss-minimal timeline with immersive movement cards, curated object stories, and fast compare tools.
+        </p>
 
-        <section className="overflow-y-auto rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-          <header className="mb-8 space-y-3">
-            <h1 className="text-4xl font-serif font-bold">The Chronos Gallery</h1>
-            <p className="max-w-3xl text-base font-sans leading-relaxed">
-              A Swiss design-inspired timeline of art movements from prehistoric epochs to mid-century modernism. The left navigation provides direct links to the era clusters and the right section includes museum plaque-style movement cards.
-            </p>
-          </header>
+        <div className="mt-8 grid gap-3 md:grid-cols-2">
+          <label className="flex flex-col gap-2">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/65">Search</span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Artist, movement, period..."
+              className="h-11 rounded-md border border-white/25 bg-white/10 px-4 text-sm text-white outline-none ring-white/40 placeholder:text-white/45 focus:ring-1"
+            />
+          </label>
+          <label className="flex flex-col gap-2">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/65">Filter</span>
+            <select
+              value={facet}
+              onChange={(event) => setFacet(event.target.value)}
+              className="h-11 rounded-md border border-white/25 bg-white/10 px-4 text-sm text-white outline-none ring-white/40 focus:ring-1"
+            >
+              {facets.map((facetOption) => (
+                <option key={facetOption} value={facetOption} className="bg-black">
+                  {facetOption}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <div className="mt-4">
+          <a href="/compare" className="text-xs uppercase tracking-[0.15em] text-white/70 hover:text-white">
+            Open dedicated compare view →
+          </a>
+        </div>
+      </header>
 
-          <div className="space-y-10">
-            {eraLinks.map((eraItem) => {
-              const movementsForEra = artMovements.filter((movement) => movement.era === eraItem.era);
-              return (
-                <article key={eraItem.id} id={eraItem.id} className="space-y-4">
-                  <h2 className="text-2xl font-serif font-semibold tracking-wide">{eraItem.era}</h2>
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    {movementsForEra.map((movement) => (
-                      <div
-                        key={movement.id}
-                        className={`border-l-4 p-4 ${
-                          movement.featured ? "border-amber-400 bg-amber-50" : "border-slate-900 bg-white"
-                        } shadow-sm`}
-                      >
-                        <h3 className="text-xl font-serif font-semibold">{movement.title}</h3>
-                        <p className="text-xs uppercase tracking-widest text-slate-500">{movement.period}</p>
-                        <p className="mt-2 text-sm font-sans leading-relaxed text-slate-700">{movement.description}</p>
-                        <a
-                          href="#"
-                          className="mt-3 inline-block rounded border border-slate-900 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-slate-800 transition hover:bg-slate-900 hover:text-white"
-                        >
-                          Learn More
-                        </a>
-                      </div>
-                    ))}
-                  </div>
-                </article>
-              );
-            })}
+      <section className="mx-auto w-full max-w-7xl px-6 pb-6 lg:px-8">
+        <div className="rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-xl">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-white/70">Compare Movements</h2>
+          <div className="mt-4 grid gap-3 md:grid-cols-2">
+            <select value={compareA} onChange={(event) => setCompareA(event.target.value)} className="h-11 rounded-md border border-white/25 bg-black/20 px-4 text-sm text-white">
+              {artMovements.map((movement) => (
+                <option key={`a-${movement.slug}`} value={movement.slug} className="bg-black">
+                  {movement.title}
+                </option>
+              ))}
+            </select>
+            <select value={compareB} onChange={(event) => setCompareB(event.target.value)} className="h-11 rounded-md border border-white/25 bg-black/20 px-4 text-sm text-white">
+              {artMovements.map((movement) => (
+                <option key={`b-${movement.slug}`} value={movement.slug} className="bg-black">
+                  {movement.title}
+                </option>
+              ))}
+            </select>
           </div>
-        </section>
-      </div>
+          <div className="mt-4 grid gap-4 border-t border-white/20 pt-4 md:grid-cols-2">
+            {[movementA, movementB].map((movement) =>
+              movement ? (
+                <article key={movement.slug} className="space-y-2 text-sm text-white/85">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/65">{movement.title}</p>
+                  <p><strong>Period:</strong> {movement.period}</p>
+                  <p><strong>Mood:</strong> {movement.visualMood}</p>
+                  <p><strong>Medium:</strong> {movement.facts.medium}</p>
+                  <p><strong>Key Figures:</strong> {movement.facts.keyFigures}</p>
+                </article>
+              ) : null,
+            )}
+          </div>
+        </div>
+      </section>
+
+      <section className="space-y-8 pb-20">
+        {filtered.map((movement) => (
+          <article
+            key={movement.slug}
+            className="relative isolate flex min-h-[84svh] items-center px-6 py-10 lg:px-8"
+          >
+            <div
+              className="absolute inset-0 -z-20 bg-cover bg-center"
+              style={{ backgroundImage: `url(${movement.bgImage})` }}
+            />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-br from-black/70 via-black/25 to-black/70" />
+            <div className="mx-auto w-full max-w-7xl">
+              <MovementCard movement={movement} />
+            </div>
+          </article>
+        ))}
+      </section>
     </main>
   );
 }

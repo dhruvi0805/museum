@@ -188,3 +188,41 @@ const museumData = [
     },
   },
 ];
+
+const facetBySlug = {
+  "ancient-art": "ancient",
+  "medieval-art": "medieval",
+  renaissance: "early-modern",
+  "baroque-rococo": "early-modern",
+  "neoclassicism-romanticism": "modernism",
+  impressionism: "modernism",
+  "modern-art": "mid-century",
+  "contemporary-art": "postmodern",
+};
+
+const moodBySlug = {
+  "ancient-art": "Ritual and symbolic",
+  "medieval-art": "Sacred and devotional",
+  renaissance: "Humanist and analytical",
+  "baroque-rococo": "Theatrical and ornamental",
+  "neoclassicism-romanticism": "Reason versus emotion",
+  impressionism: "Atmospheric and fleeting",
+  "modern-art": "Experimental and disruptive",
+  "contemporary-art": "Plural and critical",
+};
+
+museumData.forEach((era) => {
+  era.filterFacet = facetBySlug[era.slug] || "modernism";
+  era.searchTags = [era.title, era.period, era.facts.medium, era.facts.keyFigures];
+  era.heroSubtitle = `${era.title} explores ${moodBySlug[era.slug] || "cultural transformation"} across ${era.period}.`;
+  era.visualMood = moodBySlug[era.slug] || "Contextual and reflective";
+  era.objects = (era.highlights || []).slice(0, 3).map((item, index) => ({
+    title: item,
+    artist: item.split("—")[0]?.trim() || era.facts.keyFigures.split(",")[0]?.trim() || "Unknown",
+    date: era.period,
+    medium: era.facts.medium,
+    context: `${era.title} reveals changing visual values across this period.`,
+    story: `Object ${index + 1} reflects how artists in ${era.title} framed society, belief, and innovation.`,
+  }));
+  era.compareTags = [era.filterFacet, era.visualMood];
+});
