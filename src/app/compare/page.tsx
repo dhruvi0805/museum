@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { artMovements } from "@/data/movements";
+import React from "react";
 
 export default function ComparePage() {
   const [movementA, setMovementA] = useState(artMovements[1]?.slug ?? "");
