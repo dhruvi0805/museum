@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { artMovements } from "@/data/movements";
+import { RevealSection } from "@/components/reading/RevealSection";
 
 export default function DetailPage() {
   const params = useSearchParams();
@@ -33,7 +34,7 @@ export default function DetailPage() {
         <Link href="/" className="inline-flex text-xs uppercase tracking-[0.14em] text-white/70 hover:text-white">
           ← All eras
         </Link>
-        <section className="mt-6 grid gap-8 rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-xl md:grid-cols-[1fr_1.2fr]">
+        <RevealSection className="mt-6 grid gap-8 rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-xl md:grid-cols-[1fr_1.2fr]">
           <div className="min-h-[380px] rounded-xl bg-cover bg-center" style={{ backgroundImage: `url(${movement.bgImage})` }} />
           <div>
             <p className="text-xs uppercase tracking-[0.16em] text-white/70">{movement.period}</p>
@@ -50,10 +51,10 @@ export default function DetailPage() {
               </div>
             </div>
           </div>
-        </section>
+        </RevealSection>
 
         <section className="mt-8 grid gap-6 md:grid-cols-2">
-          <article className="rounded-xl border border-white/20 bg-white/5 p-5">
+          <RevealSection className="rounded-xl border border-white/20 bg-white/5 p-5">
             <h2 className="text-xs font-semibold uppercase tracking-[0.15em] text-white/70">Curated Objects</h2>
             <ul className="mt-4 space-y-4">
               {movement.objects.map((obj) => (
@@ -64,8 +65,8 @@ export default function DetailPage() {
                 </li>
               ))}
             </ul>
-          </article>
-          <article className="rounded-xl border border-white/20 bg-white/5 p-5">
+          </RevealSection>
+          <RevealSection className="rounded-xl border border-white/20 bg-white/5 p-5">
             <h2 className="text-xs font-semibold uppercase tracking-[0.15em] text-white/70">At a Glance</h2>
             <div className="mt-4 space-y-3 text-sm">
               <p><strong>Medium:</strong> {movement.facts.medium}</p>
@@ -73,7 +74,7 @@ export default function DetailPage() {
               <p><strong>Key Figures:</strong> {movement.facts.keyFigures}</p>
               <p><strong>Tags:</strong> {movement.filterFacet}, {movement.visualMood}</p>
             </div>
-          </article>
+          </RevealSection>
         </section>
       </div>
     </main>

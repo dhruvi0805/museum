@@ -1,10 +1,8 @@
-// ─── Parse URL slug ───────────────────────────────────────────────────────────
 const params = new URLSearchParams(window.location.search);
-const slug   = params.get("era");
+const slug = params.get("era");
 
 const detailContent = document.getElementById("detailContent");
 
-// ─── Find matching era ────────────────────────────────────────────────────────
 const era = museumData.find((d) => d.slug === slug);
 
 if (!era) {
@@ -19,10 +17,9 @@ if (!era) {
 } else {
   document.title = `${era.title} — Museum Chronology`;
 
-  const index    = museumData.indexOf(era);
+  const index = museumData.indexOf(era);
   const labelNum = String(index + 1).padStart(2, "0");
 
-  // Prev / Next
   const prev = museumData[index - 1];
   const next = museumData[index + 1];
 
@@ -100,7 +97,6 @@ if (!era) {
   `;
 }
 
-// ─── Smooth Scroll & Lenis ────────────────────────────────────────────────────
 let lenis;
 
 function initLenis() {

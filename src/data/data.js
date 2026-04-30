@@ -1,4 +1,3 @@
-// Museum Timeline Data
 const museumData = [
   {
     id: 1,
