@@ -2,47 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense, useMemo } from "react";
-import { useSearchParams } from "next/navigation";
-import { artMovements } from "@/data/movements";
+import type { ArtEra } from "@/data/movements";
+import type { CanonicalArtwork } from "@/lib/eraTypes";
 import { RevealSection } from "@/components/reading/RevealSection";
 import { getArtistBlurb } from "@/lib/artistBlurb";
 import { getMovementBannerSlides } from "@/lib/movementBanner";
 import { MovementBannerCarousel } from "@/components/movements/MovementBannerCarousel";
-import type { CanonicalArtwork } from "@/lib/eraTypes";
 
-function DetailPageInner() {
-  const params = useSearchParams();
-  const slug = params.get("era");
-  const movement = useMemo(
-    () => artMovements.find((item) => item.slug === slug) ?? null,
-    [slug],
-  );
+type MovementPageClientProps = {
+  movement: ArtEra;
+  eraIndex: number;
+  prev: ArtEra | null;
+  next: ArtEra | null;
+};
 
-  const eraIndex = useMemo(
-    () => (movement ? artMovements.findIndex((e) => e.slug === movement.slug) : -1),
-    [movement],
-  );
-  const prev = eraIndex > 0 ? artMovements[eraIndex - 1] : null;
-  const next = eraIndex >= 0 && eraIndex < artMovements.length - 1 ? artMovements[eraIndex + 1] : null;
-
-  if (!movement) {
-    return (
-      <main className="grid min-h-screen place-items-center bg-black p-6 text-white">
-        <div className="space-y-4 text-center">
-          <p className="text-7xl font-semibold tracking-[-0.04em] text-white/30">404</p>
-          <p className="text-xs uppercase tracking-[0.16em] text-white/70">Movement not found</p>
-          <Link
-            href="/"
-            className="inline-flex rounded-md border border-white/35 px-4 py-2 text-xs uppercase tracking-[0.15em] text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-          >
-            Return to timeline
-          </Link>
-        </div>
-      </main>
-    );
-  }
-
+export function MovementPageClient({ movement, eraIndex, prev, next }: MovementPageClientProps) {
   const labelNum = String(eraIndex + 1).padStart(2, "0");
   const bannerSlidesRaw = getMovementBannerSlides(movement);
   const bannerSlides =
@@ -179,7 +153,7 @@ function DetailPageInner() {
         >
           {prev ? (
             <Link
-              href={`/detail?era=${prev.slug}`}
+              href={`/movements/${prev.slug}`}
               className="group flex max-w-xs flex-col gap-1 text-white transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               <span className="text-[10px] uppercase tracking-[0.15em] text-white">← Previous</span>
@@ -190,7 +164,7 @@ function DetailPageInner() {
           )}
           {next ? (
             <Link
-              href={`/detail?era=${next.slug}`}
+              href={`/movements/${next.slug}`}
               className="group flex max-w-xs flex-col items-end gap-1 text-right text-white transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:text-right"
             >
               <span className="text-[10px] uppercase tracking-[0.15em] text-white">Next →</span>
@@ -202,19 +176,5 @@ function DetailPageInner() {
         </nav>
       </div>
     </main>
-  );
-}
-
-export default function DetailPage() {
-  return (
-    <Suspense
-      fallback={
-        <main className="grid min-h-screen place-items-center bg-black p-6 text-white">
-          <p className="text-xs uppercase tracking-[0.2em] text-white/60">Loading…</p>
-        </main>
-      }
-    >
-      <DetailPageInner />
-    </Suspense>
   );
 }
