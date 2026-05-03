@@ -27,7 +27,7 @@ export function MovementPageClient({ movement, eraIndex, prev, next }: MovementP
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="relative min-h-[88vh] w-full">
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 min-h-[88vh]">
           <MovementBannerCarousel slides={bannerSlides} label={`${movement.title} example works`} />
         </div>
         <div
@@ -87,6 +87,8 @@ export function MovementPageClient({ movement, eraIndex, prev, next }: MovementP
                     sizes="(max-width: 1024px) 100vw, 1024px"
                     loading={i < 2 ? "eager" : "lazy"}
                     priority={i === 0}
+                    unoptimized
+                    referrerPolicy="no-referrer"
                   />
                 </div>
                 <div className="relative z-[1] -mt-10 mx-auto w-full max-w-3xl rounded-2xl border border-white/25 bg-white/10 px-6 py-8 shadow-2xl backdrop-blur-xl md:px-10 md:py-9">

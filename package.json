@@ -6,7 +6,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "build:data": "node scripts/sync-data.cjs"
+        "build:data": "node scripts/sync-data.cjs",
+        "check-images": "node scripts/check-era-image-urls.cjs"
     },
     "dependencies": {
         "framer-motion": "^11.18.2",

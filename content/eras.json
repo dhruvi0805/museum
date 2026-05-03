@@ -44,7 +44,7 @@
           "artist": "Unknown",
           "artistId": "unknown-prehistoric",
           "date": "~17,000 BCE",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1024px-Lascaux_painting.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1280px-Lascaux_painting.jpg",
           "keyFeatures": [
             "Earth pigments on limestone",
             "Animal narrative",
@@ -62,7 +62,7 @@
           "artist": "Unknown",
           "artistId": "unknown-prehistoric",
           "date": "~25,000 BCE",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Venus_of_Willendorf_frontview_retouched_2.jpg/1024px-Venus_of_Willendorf_frontview_retouched_2.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Venus_of_Willendorf_-_All_sides.jpg/500px-Venus_of_Willendorf_-_All_sides.jpg",
           "keyFeatures": [
             "Portable limestone carving",
             "Exaggerated volume",
@@ -80,7 +80,7 @@
           "artist": "Myron (original); Roman copyist",
           "artistId": "myron",
           "date": "Classical Greek original; copy c. 140 CE",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Discobolus_in_National_Roman_Museum.jpg/1024px-Discobolus_in_National_Roman_Museum.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/500px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg",
           "keyFeatures": [
             "Spiral pose",
             "Idealized anatomy",
@@ -97,7 +97,7 @@
           "title": "Bust of Nefertiti",
           "artist": "Workshop of Thutmose (attributed)",
           "date": "~1345 BCE",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1024px-Nofretete_Neues_Museum.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/500px-Nofretete_Neues_Museum.jpg",
           "keyFeatures": [
             "Painted limestone stucco",
             "Elongated neck and crown",
@@ -114,7 +114,7 @@
           "title": "Mask of Agamemnon",
           "artist": "Unknown Mycenaean metalsmith",
           "date": "~1550–1500 BCE",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/MaskOfAgamemnon.jpg/1024px-MaskOfAgamemnon.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Athens_%E2%80%94_Mask_of_Agamemnon.jpg/500px-Athens_%E2%80%94_Mask_of_Agamemnon.jpg",
           "keyFeatures": [
             "Repoussé gold",
             "Funerary mask",
@@ -222,7 +222,7 @@
       "description": "Dominated by religious iconography and manuscript illumination, medieval art prioritized spiritual meaning over naturalistic representation.",
       "heroSubtitle": "Medieval Art explores sacred and devotional image-making through churches and manuscripts.",
       "visualMood": "Sacred and devotional",
-      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1280px-GoldenHaggadahPlague.jpg",
+      "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KellsFol032vChristEnthroned.jpg/1280px-KellsFol032vChristEnthroned.jpg",
       "imagePlaceholder": "II",
       "highlights": [
         "Book of Kells",
@@ -335,19 +335,19 @@
           }
         },
         {
-          "title": "Golden Haggadah (plague of locusts)",
+          "title": "Golden Haggadah (Pharaoh and the midwives)",
           "artist": "Unknown Iberian illuminator",
           "date": "~1320",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1024px-GoldenHaggadahPlague.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Golden_Haggadah_Pharaoh_and_the_Midwives.jpg/1024px-Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
           "keyFeatures": [
             "Gold leaf miniature",
             "Jewish liturgical book",
             "Narrative clarity"
           ],
-          "workBlurb": "Luxurious pages translate Exodus into legible, jewel-like scenes.",
+          "workBlurb": "A gold-ground miniature on vellum from the Golden Haggadah, among the most lavish Hebrew manuscripts of the period.",
           "attribution": {
-            "creditLine": "British Library",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:GoldenHaggadahPlague.jpg",
+            "creditLine": "British Library / Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
             "license": "Public domain"
           }
         },

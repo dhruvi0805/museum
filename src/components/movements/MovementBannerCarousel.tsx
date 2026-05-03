@@ -110,6 +110,8 @@ export function MovementBannerCarousel({ slides, label }: MovementBannerCarousel
                 sizes="100vw"
                 priority={i === 0}
                 draggable={false}
+                unoptimized
+                referrerPolicy="no-referrer"
               />
             </div>
           ))}

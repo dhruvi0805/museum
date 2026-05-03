@@ -49,7 +49,7 @@ const eras = [
         artistId: "unknown-prehistoric",
         date: "~17,000 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1024px-Lascaux_painting.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/1280px-Lascaux_painting.jpg",
         keyFeatures: ["Earth pigments on limestone", "Animal narrative", "Deep cave context"],
         workBlurb: "Among the best-preserved early narrative image systems in Europe.",
         attribution: att({
@@ -64,7 +64,7 @@ const eras = [
         artistId: "unknown-prehistoric",
         date: "~25,000 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Venus_of_Willendorf_frontview_retouched_2.jpg/1024px-Venus_of_Willendorf_frontview_retouched_2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Venus_of_Willendorf_-_All_sides.jpg/500px-Venus_of_Willendorf_-_All_sides.jpg",
         keyFeatures: ["Portable limestone carving", "Exaggerated volume", "Possible fertility symbolism"],
         workBlurb: "A palm-sized figure that concentrates meaning in abstracted bodily form.",
         attribution: att({
@@ -79,7 +79,7 @@ const eras = [
         artistId: "myron",
         date: "Classical Greek original; copy c. 140 CE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Discobolus_in_National_Roman_Museum.jpg/1024px-Discobolus_in_National_Roman_Museum.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/500px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg",
         keyFeatures: ["Spiral pose", "Idealized anatomy", "Athletic freeze-frame"],
         workBlurb: "Embodies the classical search for harmonious motion in sculpture.",
         attribution: att({
@@ -93,7 +93,7 @@ const eras = [
         artist: "Workshop of Thutmose (attributed)",
         date: "~1345 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1024px-Nofretete_Neues_Museum.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/500px-Nofretete_Neues_Museum.jpg",
         keyFeatures: ["Painted limestone stucco", "Elongated neck and crown", "Royal ideal beauty"],
         workBlurb: "A refined royal portrait whose symmetry still defines Egyptian elegance in popular imagination.",
         attribution: att({
@@ -107,7 +107,7 @@ const eras = [
         artist: "Unknown Mycenaean metalsmith",
         date: "~1550–1500 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/MaskOfAgamemnon.jpg/1024px-MaskOfAgamemnon.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Athens_%E2%80%94_Mask_of_Agamemnon.jpg/500px-Athens_%E2%80%94_Mask_of_Agamemnon.jpg",
         keyFeatures: ["Repoussé gold", "Funerary mask", "Stylized beard and features"],
         workBlurb: "Hammered gold burial mask signaling power and ritual care for the dead.",
         attribution: att({
@@ -198,7 +198,7 @@ const eras = [
     heroSubtitle: "Medieval Art explores sacred and devotional image-making through churches and manuscripts.",
     visualMood: "Sacred and devotional",
     bgImage:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1280px-GoldenHaggadahPlague.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KellsFol032vChristEnthroned.jpg/1280px-KellsFol032vChristEnthroned.jpg",
     imagePlaceholder: "II",
     highlights: ["Book of Kells", "Bayeux Tapestry", "Chartres", "Giotto frescoes", "Byzantine mosaics"],
     searchTags: ["book of kells", "gothic", "ravenna"],
@@ -287,16 +287,17 @@ const eras = [
         }),
       },
       {
-        title: "Golden Haggadah (plague of locusts)",
+        title: "Golden Haggadah (Pharaoh and the midwives)",
         artist: "Unknown Iberian illuminator",
         date: "~1320",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GoldenHaggadahPlague.jpg/1024px-GoldenHaggadahPlague.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Golden_Haggadah_Pharaoh_and_the_Midwives.jpg/1024px-Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
         keyFeatures: ["Gold leaf miniature", "Jewish liturgical book", "Narrative clarity"],
-        workBlurb: "Luxurious pages translate Exodus into legible, jewel-like scenes.",
+        workBlurb:
+          "A gold-ground miniature on vellum from the Golden Haggadah, among the most lavish Hebrew manuscripts of the period.",
         attribution: att({
-          creditLine: "British Library",
-          sourceUrl: "https://commons.wikimedia.org/wiki/File:GoldenHaggadahPlague.jpg",
+          creditLine: "British Library / Wikimedia Commons",
+          sourceUrl: "https://commons.wikimedia.org/wiki/File:Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
           license: "Public domain",
         }),
       },
