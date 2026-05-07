@@ -750,19 +750,22 @@ button { cursor: pointer; background: none; border: none; font-family: inherit; 
 
 .detail-artwork-frame {
   position: relative;
-  aspect-ratio: 4 / 3;
   width: 100%;
+  min-height: 200px;
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid var(--gray-light);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
   background: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-artwork-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   vertical-align: middle;
 }

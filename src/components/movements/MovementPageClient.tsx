@@ -77,11 +77,11 @@ export function MovementPageClient({ movement, eraIndex, prev, next }: MovementP
           {movement.artworks.map((work: CanonicalArtwork, i: number) => (
             <RevealSection key={`${work.title}-${i}`} className="scroll-mt-8">
               <article className="flex flex-col gap-0">
-                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/20 bg-black/40 shadow-xl">
+                <div className="w-full overflow-hidden rounded-2xl border border-white/20 bg-black/40 shadow-xl min-h-[200px] flex items-center justify-center">
                   <img
                     src={work.imageUrl}
                     alt={`${work.title} by ${work.artist}`}
-                    className="absolute inset-0 h-full w-full object-cover"
+                    className="w-full h-auto block"
                     sizes="(max-width: 1024px) 100vw, 1024px"
                     loading={i < 2 ? "eager" : "lazy"}
                     fetchPriority={i === 0 ? "high" : undefined}
