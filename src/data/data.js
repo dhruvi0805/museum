@@ -781,7 +781,7 @@ const museumData = [
         "artist": "Caravaggio",
         "artistId": "caravaggio",
         "date": "1599–1600",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-12413-001.jpg",
+        "imageUrl": "https://www.caravaggio.org/assets/img/paintings/the-calling-of-saint-matthew.jpg",
         "keyFeatures": [
           "Diagonal beam of light",
           "Contemporary dress",
@@ -790,7 +790,7 @@ const museumData = [
         "workBlurb": "Christ’s gesture cuts through shadow to interrupt a tax collector’s counting.",
         "attribution": {
           "creditLine": "Contarelli Chapel, Rome",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437986",
+          "sourceUrl": "https://www.caravaggio.org/the-calling-of-saint-matthew.jsp",
           "license": "Public domain"
         }
       },
@@ -808,7 +808,7 @@ const museumData = [
         "workBlurb": "Amsterdam civic guards become a theater of motion and interrupted ceremony.",
         "attribution": {
           "creditLine": "Rijksmuseum",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Night_Watch",
           "license": "Public domain"
         }
       },
@@ -834,7 +834,7 @@ const museumData = [
         "title": "Ecstasy of Saint Teresa",
         "artist": "Gian Lorenzo Bernini",
         "date": "1647–1652",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP328663.jpg",
+        "imageUrl": "https://www.learner.org/wp-content/uploads/2019/03/art-through-time-dreams-and-visions-work-098-The-Ecstasy-of-St.-Teresa.jpg",
         "keyFeatures": [
           "Marble and bronze",
           "Hidden light source",
@@ -843,7 +843,7 @@ const museumData = [
         "workBlurb": "Sculpture, architecture, and light collaborate in Counter-Reformation spectacle.",
         "attribution": {
           "creditLine": "Photo: Alvesgaspar / Wikimedia Commons",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/647338",
+          "sourceUrl": "https://www.learner.org/series/art-through-time-a-global-view/dreams-and-visions/the-ecstasy-of-st-teresa/",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -851,7 +851,7 @@ const museumData = [
         "title": "Las Meninas",
         "artist": "Diego Velázquez",
         "date": "1656",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP221248.jpg",
+        "imageUrl": "https://i0.wp.com/blog.artsper.com/wp-content/uploads/2022/01/sketch-las-meninas.jpg?ssl=1",
         "keyFeatures": [
           "Mirror depth",
           "Painter in scene",
@@ -860,7 +860,7 @@ const museumData = [
         "workBlurb": "A princess, her attendants, and the artist’s canvas fold viewers into the room.",
         "attribution": {
           "creditLine": "Museo del Prado",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437874",
+          "sourceUrl": "https://blog.artsper.com/es/la-minute-arty-es/comprender-el-emblematico-cuadro-las-meninas-de-velazquez/",
           "license": "Public domain"
         }
       },
@@ -886,7 +886,7 @@ const museumData = [
         "title": "Judith Slaying Holofernes",
         "artist": "Artemisia Gentileschi",
         "date": "1612–1613",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1446.jpg",
+        "imageUrl": "https://www.uffizi.it/assets/103094/1688661508-1506165873655660-artemisia-giuditta-principale.jpg",
         "keyFeatures": [
           "Tenebrism",
           "Female protagonists",
@@ -895,7 +895,7 @@ const museumData = [
         "workBlurb": "Judith and her maid lean into decisive violence with unflinching weight.",
         "attribution": {
           "creditLine": "Museo di Capodimonte",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437745",
+          "sourceUrl": "https://www.uffizi.it/en/artworks/judith-beheading-holofernes",
           "license": "Public domain"
         }
       },
@@ -903,7 +903,7 @@ const museumData = [
         "title": "The Descent from the Cross",
         "artist": "Peter Paul Rubens",
         "date": "1612–1614",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/md/original/DP102289.jpg",
+        "imageUrl": "https://blog.artgeek.io/wp-content/uploads/2020/04/WHole-Descent-Altarpiece.jpg",
         "keyFeatures": [
           "Diagonal body mass",
           "Flemish color",
@@ -912,7 +912,7 @@ const museumData = [
         "workBlurb": "Christ’s dead weight pulls every figure into a cascading diagonal.",
         "attribution": {
           "creditLine": "Cathedral of Our Lady, Antwerp",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/464156",
+          "sourceUrl": "https://blog.artgeek.io/2020/04/09/art-in-context-peter-paul-rubens-altarpiece-the-descent-from-the-cross/",
           "license": "Public domain"
         }
       },
@@ -920,7 +920,7 @@ const museumData = [
         "title": "Pilgrimage to Cythera",
         "artist": "Jean-Antoine Watteau",
         "date": "1717",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/L%27Embarquement_pour_Cyth%C3%A8re%2C_by_Antoine_Watteau%2C_from_C2RMF_retouched.jpg/960px-L%27Embarquement_pour_Cyth%C3%A8re%2C_by_Antoine_Watteau%2C_from_C2RMF_retouched.jpg",
         "keyFeatures": [
           "Fête galante",
           "Silky brush",
@@ -929,7 +929,7 @@ const museumData = [
         "workBlurb": "Lovers drift toward an island of Venus in feather-light Rococo atmosphere.",
         "attribution": {
           "creditLine": "Louvre / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437926",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Embarkation_for_Cythera",
           "license": "Public domain"
         }
       },
@@ -938,7 +938,7 @@ const museumData = [
         "artist": "Rembrandt van Rijn",
         "artistId": "rembrandt",
         "date": "c. 1669",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145912.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/960px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg",
         "keyFeatures": [
           "Impasto hands",
           "Forgiveness embrace",
@@ -947,7 +947,7 @@ const museumData = [
         "workBlurb": "Hands and fabrics dissolve into touch—Rembrandt’s last word on mercy.",
         "attribution": {
           "creditLine": "Hermitage Museum",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437406",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Return_of_the_Prodigal_Son_(Rembrandt)",
           "license": "Public domain"
         }
       }
@@ -1028,7 +1028,7 @@ const museumData = [
         "artist": "Jacques-Louis David",
         "artistId": "david",
         "date": "1784",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg/960px-Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg",
         "keyFeatures": [
           "Neoclassical frieze",
           "Republican allegory",
@@ -1037,7 +1037,7 @@ const museumData = [
         "workBlurb": "Three brothers salute swords while women collapse—duty over domestic feeling.",
         "attribution": {
           "creditLine": "Louvre / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Oath_of_the_Horatii",
           "license": "Public domain"
         }
       },
@@ -1046,7 +1046,7 @@ const museumData = [
         "artist": "Jacques-Louis David",
         "artistId": "david",
         "date": "1793",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/960px-Death_of_Marat_by_David.jpg",
         "keyFeatures": [
           "Revolutionary martyr",
           "Minimal setting",
@@ -1055,7 +1055,7 @@ const museumData = [
         "workBlurb": "Marat’s bathtub martyrdom is staged as a secular pietà.",
         "attribution": {
           "creditLine": "Royal Museums of Fine Arts of Belgium",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Death_of_Marat",
           "license": "Public domain"
         }
       },
@@ -1080,7 +1080,7 @@ const museumData = [
         "title": "The Raft of the Medusa",
         "artist": "Théodore Géricault",
         "date": "1818–1819",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT2138.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2020/05/33797630784_00ce9a131b_4k-1-1536x1060.jpg",
         "keyFeatures": [
           "Contemporary disaster",
           "Chiaroscuro raft",
@@ -1089,7 +1089,7 @@ const museumData = [
         "workBlurb": "Shipwreck survivors wave at a distant ship—Romanticism meets investigative outrage.",
         "attribution": {
           "creditLine": "Louvre",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436455",
+          "sourceUrl": "https://smarthistory.org/theodore-gericault-raft-of-the-medusa/",
           "license": "Public domain"
         }
       },
@@ -1133,7 +1133,7 @@ const museumData = [
         "artist": "Francisco Goya",
         "artistId": "goya",
         "date": "1814",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-22708-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/960px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
         "keyFeatures": [
           "Anti-heroic execution",
           "Lantern light",
@@ -1142,7 +1142,7 @@ const museumData = [
         "workBlurb": "Victims face firing squad with arms outstretched—modern political painting.",
         "attribution": {
           "creditLine": "Museo del Prado",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436551",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
           "license": "Public domain"
         }
       },
@@ -1151,7 +1151,7 @@ const museumData = [
         "artist": "Francisco Goya",
         "artistId": "goya",
         "date": "1819–1823",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP287624.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg/960px-Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
         "keyFeatures": [
           "Black paintings",
           "Mythic horror",
@@ -1160,7 +1160,7 @@ const museumData = [
         "workBlurb": "A private mural of mythic cannibalism—nightmare logic on plaster.",
         "attribution": {
           "creditLine": "Museo del Prado / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436545",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son",
           "license": "Public domain"
         }
       },
@@ -1168,7 +1168,7 @@ const museumData = [
         "title": "Grande Odalisque",
         "artist": "Jean-Auguste-Dominique Ingres",
         "date": "1814",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13728-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg/960px-La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg",
         "keyFeatures": [
           "Elongated spine",
           "Orientalist fantasy",
@@ -1177,7 +1177,7 @@ const museumData = [
         "workBlurb": "Neoclassical line meets exoticist imagination in a lounging figure.",
         "attribution": {
           "creditLine": "Louvre",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436708",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grande_Odalisque",
           "license": "Public domain"
         }
       },
@@ -1185,7 +1185,7 @@ const museumData = [
         "title": "The Monk by the Sea",
         "artist": "Caspar David Friedrich",
         "date": "1808–1810",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-31997-001-NEW.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/960px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg",
         "keyFeatures": [
           "Minimal figure",
           "Vast sky",
@@ -1194,7 +1194,7 @@ const museumData = [
         "workBlurb": "A robed speck faces infinite sea and weather—scale reduces theology to feeling.",
         "attribution": {
           "creditLine": "Alte Nationalgalerie / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/438417",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Monk_by_the_Sea",
           "license": "Public domain"
         }
       }
@@ -1293,7 +1293,7 @@ const museumData = [
         "title": "Bal du moulin de la Galette",
         "artist": "Pierre-Auguste Renoir",
         "date": "1876",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1874.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/960px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg",
         "keyFeatures": [
           "Dappled outdoor light",
           "Crowd snapshot",
@@ -1302,7 +1302,7 @@ const museumData = [
         "workBlurb": "Parisians mingle on a Sunday—flecks of light dissolve social distance.",
         "attribution": {
           "creditLine": "Musée d'Orsay / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/438010",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bal_du_moulin_de_la_Galette",
           "license": "Public domain"
         }
       },
@@ -1364,7 +1364,7 @@ const museumData = [
         "artist": "Claude Monet",
         "artistId": "monet",
         "date": "1906",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Claude_Monet_-Water_Lilies-_Google_Art_Project_2.jpg",
+        "imageUrl": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/1686,/0/default.jpg",
         "keyFeatures": [
           "Reflective surface",
           "Horizon dissolved",
@@ -1373,7 +1373,7 @@ const museumData = [
         "workBlurb": "Pond and sky trade places—late Monet turns garden into abstract shimmer.",
         "attribution": {
           "creditLine": "Art Institute of Chicago",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-Water_Lilies-_Google_Art_Project_2.jpg",
+          "sourceUrl": "https://www.artic.edu/artworks/16568/water-lilies",
           "license": "Public domain"
         }
       },
@@ -1381,7 +1381,7 @@ const museumData = [
         "title": "Mont Sainte-Victoire",
         "artist": "Paul Cézanne",
         "date": "1902–1906",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20099-001.jpg",
+        "imageUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435878/795031/main-image",
         "keyFeatures": [
           "Geometric facets",
           "Provençal light",
@@ -1390,7 +1390,7 @@ const museumData = [
         "workBlurb": "The mountain returns in patches—Cézanne teaches Cubism how to see.",
         "attribution": {
           "creditLine": "Baltimore Museum of Art / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435877",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435878",
           "license": "Public domain"
         }
       },
@@ -1398,7 +1398,7 @@ const museumData = [
         "title": "Olympia",
         "artist": "Édouard Manet",
         "date": "1863",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg/960px-Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg",
         "keyFeatures": [
           "Direct gaze",
           "Flat light",
@@ -1407,7 +1407,7 @@ const museumData = [
         "workBlurb": "A studio bed and a black servant with flowers—Parisian modernity confronts the Salon.",
         "attribution": {
           "creditLine": "Musée d'Orsay / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436964",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Olympia_(Manet)",
           "license": "Public domain"
         }
       },
@@ -1415,7 +1415,7 @@ const museumData = [
         "title": "At the Moulin Rouge",
         "artist": "Henri de Toulouse-Lautrec",
         "date": "1892–1895",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Henri_de_Toulouse-Lautrec%2C_At_the_Moulin_Rouge.jpg",
+        "imageUrl": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/1686,/0/default.jpg",
         "keyFeatures": [
           "Gaslight green",
           "Poster flatness",
@@ -1424,7 +1424,7 @@ const museumData = [
         "workBlurb": "Cabaret mirrors and cropped faces compress Paris night into graphic slices.",
         "attribution": {
           "creditLine": "Art Institute of Chicago / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec,_At_the_Moulin_Rouge.jpg",
+          "sourceUrl": "https://www.artic.edu/artworks/61128/at-the-moulin-rouge",
           "license": "Public domain"
         }
       },
@@ -1432,7 +1432,7 @@ const museumData = [
         "title": "The Child's Bath",
         "artist": "Mary Cassatt",
         "date": "1893",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mary_Cassatt_-The_Child%27s_Bath-_Google_Art_Project.jpg",
+        "imageUrl": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/1686,/0/default.jpg",
         "keyFeatures": [
           "Domestic intimacy",
           "Japanese print flattening",
@@ -1441,7 +1441,7 @@ const museumData = [
         "workBlurb": "Mother and child share a ritual touch—Impressionism meets private life.",
         "attribution": {
           "creditLine": "Art Institute of Chicago / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-The_Child%27s_Bath-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.artic.edu/artworks/111442/the-child-s-bath",
           "license": "Public domain"
         }
       }
@@ -1540,7 +1540,7 @@ const museumData = [
         "artist": "Marcel Duchamp",
         "artistId": "duchamp",
         "date": "1917",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Duchamp_Fountain.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/500px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg",
         "keyFeatures": [
           "Readymade",
           "Signature R. Mutt",
@@ -1549,7 +1549,7 @@ const museumData = [
         "workBlurb": "A rotated urinal asks who authorizes art—a hinge for modern theory.",
         "attribution": {
           "creditLine": "Photo: Alfred Stieglitz / Wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountain.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fountain_(Duchamp)",
           "license": "Public domain"
         }
       },
@@ -1574,7 +1574,7 @@ const museumData = [
         "title": "Broadway Boogie Woogie",
         "artist": "Piet Mondrian",
         "date": "1942–1943",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg/960px-Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg/960px-Piet_Mondrian%2C_1942_-_Broadway_Boogie_Woogie.jpg",
         "keyFeatures": [
           "NYC rhythm",
           "Primary grid",
@@ -1583,7 +1583,7 @@ const museumData = [
         "workBlurb": "Mondrian’s last grid pulses like traffic and jazz in wartime New York.",
         "attribution": {
           "creditLine": "MoMA / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Broadway_Boogie_Woogie",
           "license": "Public domain"
         }
       },
@@ -1591,7 +1591,7 @@ const museumData = [
         "title": "Composition VII",
         "artist": "Wassily Kandinsky",
         "date": "1913",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg/960px-Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg",
         "keyFeatures": [
           "Apocalyptic color",
           "Spiritual abstraction",
@@ -1600,7 +1600,7 @@ const museumData = [
         "workBlurb": "Kandinsky orchestrates collision and rescue in non-objective drama.",
         "attribution": {
           "creditLine": "Tretyakov Gallery / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,1913-_Composition_7.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Composition_VII",
           "license": "Public domain"
         }
       },
@@ -1608,7 +1608,7 @@ const museumData = [
         "title": "Dance (I)",
         "artist": "Henri Matisse",
         "date": "1909",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Matissedance.jpg/960px-Matissedance.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Henri_Matisse%2C_1909%2C_La_danse_%28I%29%2C_Museum_of_Modern_Art.jpg/960px-Henri_Matisse%2C_1909%2C_La_danse_%28I%29%2C_Museum_of_Modern_Art.jpg",
         "keyFeatures": [
           "Fauvist color",
           "Primal circle",
@@ -1617,7 +1617,7 @@ const museumData = [
         "workBlurb": "Five figures loop in red, green, blue—modernism claims joy as subject.",
         "attribution": {
           "creditLine": "Hermitage Museum",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matissedance.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dance_(Matisse)",
           "license": "Public domain"
         }
       },
@@ -1626,7 +1626,7 @@ const museumData = [
         "artist": "Pablo Picasso",
         "artistId": "picasso",
         "date": "1937",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/960px-PicassoGuernica.jpg",
+        "imageUrl": "https://www.pablopicasso.org/assets/img/paintings/guernica3.jpg",
         "keyFeatures": [
           "Monochrome monument",
           "War allegory",
@@ -1635,7 +1635,7 @@ const museumData = [
         "workBlurb": "Bombing becomes a mural scream—Spain’s trauma in fractured animals and women.",
         "attribution": {
           "creditLine": "Museo Reina Sofía",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:PicassoGuernica.jpg",
+          "sourceUrl": "https://www.pablopicasso.org/guernica.jsp",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1661,7 +1661,7 @@ const museumData = [
         "artist": "Jackson Pollock",
         "artistId": "pollock",
         "date": "1950",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg/960px-Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg",
+        "imageUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/488978/2334675/restricted",
         "keyFeatures": [
           "All-over field",
           "Drip line",
@@ -1670,7 +1670,7 @@ const museumData = [
         "workBlurb": "Brown, black, white skeins record bodily rhythm across unstretched canvas.",
         "attribution": {
           "creditLine": "Metropolitan Museum of Art",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Jackson_Pollock_-_Autumn_Rhythm_(Number_30).jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/488978",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1678,7 +1678,7 @@ const museumData = [
         "title": "Orange, Red, Yellow",
         "artist": "Mark Rothko",
         "date": "1961",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg/960px-Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg",
+        "imageUrl": "https://www.mark-rothko.org/assets/img/paintings/orange-red-yellow.jpg",
         "keyFeatures": [
           "Stacked color bands",
           "Luminous veil",
@@ -1687,7 +1687,7 @@ const museumData = [
         "workBlurb": "Warm rectangles hover—Rothko slows viewing into duration and breath.",
         "attribution": {
           "creditLine": "Private collection / widely published",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Mark_Rothko_-_Orange,_Red,_Yellow.jpg",
+          "sourceUrl": "https://www.mark-rothko.org/orange-red-yellow.jsp",
           "license": "Fair use / museum image (verify locally)"
         }
       }
@@ -1768,7 +1768,7 @@ const museumData = [
         "artist": "Andy Warhol",
         "artistId": "warhol",
         "date": "1962",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg/960px-Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2022/02/MarilynDip-1536x1086.jpg",
         "keyFeatures": [
           "Silkscreen repetition",
           "Celebrity icon",
@@ -1777,7 +1777,7 @@ const museumData = [
         "workBlurb": "Marilyn’s face multiplies toward fade—fame and mortality in one diptych.",
         "attribution": {
           "creditLine": "Tate",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Andy_Warhol_Marilyn_Diptych_(Tate).jpg",
+          "sourceUrl": "https://smarthistory.org/warhol-marilyn-diptych/",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1786,7 +1786,7 @@ const museumData = [
         "artist": "Yayoi Kusama",
         "artistId": "kusama",
         "date": "1965–present (series)",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Yayoi_Kusama_Infinity_Mirror_Room.jpg/960px-Yayoi_Kusama_Infinity_Mirror_Room.jpg",
+        "imageUrl": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/Eternity2.jpg",
         "keyFeatures": [
           "LED reflections",
           "Mirror chamber",
@@ -1795,7 +1795,7 @@ const museumData = [
         "workBlurb": "A chamber of lights multiplies the viewer into countless copies.",
         "attribution": {
           "creditLine": "Photo: Rhododendrites / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_Infinity_Mirror_Room.jpg",
+          "sourceUrl": "https://hirshhorn.si.edu/kusama/infinity-rooms/",
           "license": "CC BY-SA 4.0"
         }
       },
@@ -1804,7 +1804,7 @@ const museumData = [
         "artist": "Ai Weiwei",
         "artistId": "aiweiwei",
         "date": "2010",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sunflower_seeds_tate_modern_2010.jpg/960px-Sunflower_seeds_tate_modern_2010.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ai_Weiwei%27s_Sunflower_Seeds%2C_Tate_Modern.jpg/1280px-Ai_Weiwei%27s_Sunflower_Seeds%2C_Tate_Modern.jpg",
         "keyFeatures": [
           "Porcelain multiplicity",
           "Turbine Hall",
@@ -1813,7 +1813,7 @@ const museumData = [
         "workBlurb": "Millions of hand-painted seeds carpet the floor—individual and mass in tension.",
         "attribution": {
           "creditLine": "Photo: Olaf Davis / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunflower_seeds_tate_modern_2010.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sunflower_Seeds_(artwork)#/media/File:Ai_Weiwei's_Sunflower_Seeds,_Tate_Modern.jpg",
           "license": "CC BY 3.0"
         }
       },
@@ -1821,7 +1821,7 @@ const museumData = [
         "title": "Untitled (Skull)",
         "artist": "Jean-Michel Basquiat",
         "date": "1981",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg/960px-Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Untitled-Head-Jean-Michel_Basquiat-1981.jpg",
         "keyFeatures": [
           "Neo-expressionism",
           "Graffiti syntax",
@@ -1830,7 +1830,7 @@ const museumData = [
         "workBlurb": "Crown and skull scrawl across canvas—downtown New York enters the canon.",
         "attribution": {
           "creditLine": "Broad collection / widely published",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Jean-Michel_Basquiat_-_Untitled_(1981).jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Untitled_(Skull)",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1838,7 +1838,7 @@ const museumData = [
         "title": "The Physical Impossibility of Death in the Mind of Someone Living",
         "artist": "Damien Hirst",
         "date": "1991",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Hirst_shark.jpg/960px-Hirst_shark.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Hirst-Shark.jpg",
         "keyFeatures": [
           "Formaldehyde vitrine",
           "YBA spectacle",
@@ -1847,7 +1847,7 @@ const museumData = [
         "workBlurb": "A tiger shark floats in blue—contemporary art meets natural history dread.",
         "attribution": {
           "creditLine": "Widely published installation views",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Hirst_shark.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Physical_Impossibility_of_Death_in_the_Mind_of_Someone_Living",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1855,7 +1855,7 @@ const museumData = [
         "title": "Balloon Dog (Orange)",
         "artist": "Jeff Koons",
         "date": "1994–2000",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BalloonDog_Orange.jpg/960px-BalloonDog_Orange.jpg",
+        "imageUrl": "https://fadmagazine.com/wp-content/uploads/BalloonDog_Orange_Crop-scaled.jpg",
         "keyFeatures": [
           "Mirror stainless steel",
           "Inflated toy form",
@@ -1864,7 +1864,7 @@ const museumData = [
         "workBlurb": "Childhood balloon becomes monumental chrome—surface and spectacle merge.",
         "attribution": {
           "creditLine": "Photo: Richard Giles / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:BalloonDog_Orange.jpg",
+          "sourceUrl": "https://fadmagazine.com/2021/09/14/jeff-koons-lost-in-america-his-first-exhibition-in-the-gulf-region/balloondog_orange_crop/",
           "license": "CC BY-SA 2.0"
         }
       },
@@ -1872,7 +1872,7 @@ const museumData = [
         "title": "Cloud Gate",
         "artist": "Anish Kapoor",
         "date": "2004–2006",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cloud_Gate%2C_Chicago.jpg/960px-Cloud_Gate%2C_Chicago.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c1/Cloud_Gate_%28The_Bean%29_from_east%27.jpg",
         "keyFeatures": [
           "Seamless steel",
           "Public plaza",
@@ -1881,7 +1881,7 @@ const museumData = [
         "workBlurb": "The bean reflects Chicago—sculpture as collective selfie and mirror.",
         "attribution": {
           "creditLine": "Photo: Axel Drainville / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cloud_Gate,_Chicago.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cloud_Gate",
           "license": "CC BY 2.0"
         }
       },
@@ -1889,7 +1889,7 @@ const museumData = [
         "title": "Untitled Film Still #21",
         "artist": "Cindy Sherman",
         "date": "1978",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Cindy_Sherman_Untitled_Film_Still_21.jpg/960px-Cindy_Sherman_Untitled_Film_Still_21.jpg",
+        "imageUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/266784/1476867/restricted",
         "keyFeatures": [
           "Self as actress",
           "Black-and-white serial",
@@ -1897,8 +1897,8 @@ const museumData = [
         ],
         "workBlurb": "Sherman stages herself as a noir heroine—photography critiques Hollywood types.",
         "attribution": {
-          "creditLine": "MoMA collection",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Cindy_Sherman_Untitled_Film_Still_21.jpg",
+          "creditLine": "The Metropolitan Museum of Art",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/266784",
           "license": "Fair use / museum image (verify locally)"
         }
       },
@@ -1906,7 +1906,7 @@ const museumData = [
         "title": "Maman (spider)",
         "artist": "Louise Bourgeois",
         "date": "1999",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Maman%2C_Ottawa.jpg/960px-Maman%2C_Ottawa.jpg",
+        "imageUrl": "https://www.guggenheim.org/wp-content/uploads/1999/01/GBM2001.1_ph_web-1.jpg",
         "keyFeatures": [
           "Bronze and marble eggs",
           "Monumental arachnid",
@@ -1915,7 +1915,7 @@ const museumData = [
         "workBlurb": "A towering spider guards eggs—family psychology cast at civic scale.",
         "attribution": {
           "creditLine": "Photo: D. Gordon E. Robertson / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maman,_Ottawa.jpg",
+          "sourceUrl": "https://www.guggenheim.org/artwork/10856",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -1923,7 +1923,7 @@ const museumData = [
         "title": "LOVE (sculpture)",
         "artist": "Robert Indiana",
         "date": "1970 (edition)",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Love_sculpture_Indianapolis.jpg/960px-Love_sculpture_Indianapolis.jpg",
+        "imageUrl": "https://artsmartindiana.org/wp-content/uploads/2019/02/14-Indiana-Robert-1-768x580.jpg",
         "keyFeatures": [
           "Typographic icon",
           "Pop minimalism",
@@ -1932,7 +1932,7 @@ const museumData = [
         "workBlurb": "Four letters tilt into a logo—1960s optimism cast in steel.",
         "attribution": {
           "creditLine": "Photo: Huw Williams / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Love_sculpture_Indianapolis.jpg",
+          "sourceUrl": "https://artsmartindiana.org/artwork/indiana-robert-love-1970/",
           "license": "Public domain"
         }
       }
