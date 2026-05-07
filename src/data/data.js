@@ -131,7 +131,7 @@ const museumData = [
         "title": "Augustus of Prima Porta",
         "artist": "Unknown Roman sculptor",
         "date": "1st century CE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Statue-Augustus.jpg",
+        "imageUrl": "https://www.ancientworldmagazine.com/site/assets/files/1666/statue.1024x0-is.jpg",
         "keyFeatures": [
           "Political portraiture",
           "Cupid ride-along",
@@ -140,7 +140,7 @@ const museumData = [
         "workBlurb": "Propaganda in marble: youth, virtue, and dynasty folded into one commanding stance.",
         "attribution": {
           "creditLine": "Photo: Till Niermann / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
+          "sourceUrl": "https://www.ancientworldmagazine.com/articles/augustus-prima-porta/",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -148,7 +148,7 @@ const museumData = [
         "title": "Standard of Ur",
         "artist": "Unknown Sumerian artisan",
         "date": "~2600–2400 BCE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Standard_of_Ur_-_War_Side.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2023/07/50810775067_6e072e3c31_o-1536x1096.jpg",
         "keyFeatures": [
           "Shell and lapis inlay",
           "Narrative registers",
@@ -157,7 +157,7 @@ const museumData = [
         "workBlurb": "Miniature inlaid scenes that read like early graphic novels of state power.",
         "attribution": {
           "creditLine": "Photo: DavidDublin / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_of_Ur_-_War_Side.jpg",
+          "sourceUrl": "https://smarthistory.org/standard-of-ur-2/",
           "license": "CC BY 3.0"
         }
       },
@@ -165,7 +165,7 @@ const museumData = [
         "title": "Code of Hammurabi stele",
         "artist": "Unknown Babylonian workshop",
         "date": "~1754 BCE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/P1150891_Louvre_code_Hammurabi_face_rwk.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg/500px-F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg",
         "keyFeatures": [
           "Basalt relief",
           "Law text in cuneiform",
@@ -174,7 +174,7 @@ const museumData = [
         "workBlurb": "Law, religion, and public inscription merged into a single monumental document.",
         "attribution": {
           "creditLine": "Photo: Mbzt / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1150891_Louvre_code_Hammurabi_face_rwk.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hammurabi",
           "license": "CC BY 3.0"
         }
       },
@@ -182,7 +182,7 @@ const museumData = [
         "title": "Alexander Mosaic",
         "artist": "Unknown (Roman copy of Greek painting)",
         "date": "~100 BCE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Alexander_the_Great_mosaic.jpg",
+        "imageUrl": "https://www.exploringart.co/wp-content/uploads/2020/10/Alexander_the_Great_mosaic_s.jpg",
         "keyFeatures": [
           "Millions of tesserae",
           "Battle drama",
@@ -191,7 +191,7 @@ const museumData = [
         "workBlurb": "Floor mosaic that preserves the energy of a lost Hellenistic battle painting.",
         "attribution": {
           "creditLine": "Photo: Berthold Werner / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic.jpg",
+          "sourceUrl": "https://www.exploringart.co/ancient-roman-art-alexander-mosaic/",
           "license": "Public domain"
         }
       },
@@ -199,7 +199,7 @@ const museumData = [
         "title": "Fresco from the Villa of the Mysteries, Pompeii",
         "artist": "Unknown Roman painter",
         "date": "~60–50 BCE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Misteri_frieze.jpg",
+        "imageUrl": "https://melbourneartclass.com/wp-content/uploads/2021/10/image-2.png",
         "keyFeatures": [
           "Large-scale wall painting",
           "Initiation narrative",
@@ -208,7 +208,7 @@ const museumData = [
         "workBlurb": "A surviving cycle of figures whose ritual story still invites debate.",
         "attribution": {
           "creditLine": "Photo: Carole Raddato / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misteri_frieze.jpg",
+          "sourceUrl": "https://melbourneartclass.com/the-villa-of-the-mysteries-pompeii/",
           "license": "CC BY-SA 2.0"
         }
       }
@@ -317,7 +317,7 @@ const museumData = [
         "artist": "Giotto di Bondone",
         "artistId": "giotto",
         "date": "1304–1306",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Giotto_-Scrovegni--36--Lamentation%28The_Mourning_of_Christ%29.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-31416-001.jpg",
         "keyFeatures": [
           "Fresco secco",
           "Weighted grief",
@@ -326,7 +326,7 @@ const museumData = [
         "workBlurb": "Bodies lean into shared sorrow—an early model of humanist sacred drama.",
         "attribution": {
           "creditLine": "Public domain artwork",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-Scrovegni--36--Lamentation(The_Mourning_of_Christ)_adj.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436504",
           "license": "Public domain"
         }
       },
@@ -351,7 +351,7 @@ const museumData = [
         "title": "Christ Pantocrator, Monreale Cathedral mosaic",
         "artist": "Byzantine workshop",
         "date": "12th century",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Monreale_duomo_apside_cristo_pantocratore.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DT299206.jpg",
         "keyFeatures": [
           "Gold ground",
           "Greek inscription",
@@ -360,7 +360,7 @@ const museumData = [
         "workBlurb": "A stern, frontal Christ anchors Sicily’s Norman-Byzantine fusion.",
         "attribution": {
           "creditLine": "Photo: Berthold Werner / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monreale_duomo_apside_cristo_pantocratore.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/193649",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -419,7 +419,7 @@ const museumData = [
         "title": "Sutton Hoo helmet (reconstruction)",
         "artist": "Unknown Anglo-Saxon metalsmith",
         "date": "7th century",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sutton_Hoo_helmet_reconstruction.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20747-001.jpg",
         "keyFeatures": [
           "Crested iron and tin",
           "Animal interlace",
@@ -428,7 +428,7 @@ const museumData = [
         "workBlurb": "Elaborate helmet armor signals ritual kingship at the edge of written history.",
         "attribution": {
           "creditLine": "Photo: Gernot Keller / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_reconstruction.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437969",
           "license": "CC BY-SA 4.0"
         }
       },
@@ -436,7 +436,7 @@ const museumData = [
         "title": "Ostromir Gospels — evangelist portrait",
         "artist": "Unknown Kievan scribe (Deacon Gregory)",
         "date": "1056–1057",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ostromir_Evangelist_Luke.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/md/original/DP228809.jpg",
         "keyFeatures": [
           "East Slavic illumination",
           "Christ in majesty",
@@ -445,7 +445,7 @@ const museumData = [
         "workBlurb": "One of the earliest dated East Slavic books, bridging Byzantine models and local power.",
         "attribution": {
           "creditLine": "National Library of Russia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ostromir_Evangelist_Luke.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/478665",
           "license": "Public domain"
         }
       }
@@ -532,7 +532,7 @@ const museumData = [
         "artist": "Sandro Botticelli",
         "artistId": "botticelli",
         "date": "1484–1486",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-La_nascita_di_Venere-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-22432-001.jpg",
         "keyFeatures": [
           "Tempera on canvas",
           "Classical myth",
@@ -541,7 +541,7 @@ const museumData = [
         "workBlurb": "Venus arrives on a shell—an emblem of revived antiquity in Florence.",
         "attribution": {
           "creditLine": "Uffizi Gallery / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-La_nascita_di_Venere-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435831",
           "license": "Public domain"
         }
       },
@@ -586,7 +586,7 @@ const museumData = [
         "artist": "Michelangelo",
         "artistId": "michelangelo",
         "date": "1508–1512",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-Creation_of_Adam%28cropped%29.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DP242352.jpg",
         "keyFeatures": [
           "Fresco",
           "Torsion and touch",
@@ -595,7 +595,7 @@ const museumData = [
         "workBlurb": "The near-touch of fingers compresses Genesis into one charged diagonal.",
         "attribution": {
           "creditLine": "Vatican Museums",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo_-Creation_of_Adam(cropped).jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/191803",
           "license": "Public domain"
         }
       },
@@ -640,7 +640,7 @@ const museumData = [
         "artist": "Michelangelo",
         "artistId": "michelangelo",
         "date": "1501–1504",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/David_von_Michelangelo.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
         "keyFeatures": [
           "Carrara marble",
           "Contrapposto",
@@ -649,7 +649,7 @@ const museumData = [
         "workBlurb": "Youth before battle—scale and polish turn biblical hero into Florentine pride.",
         "attribution": {
           "creditLine": "Photo: David Gobeil / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_von_Michelangelo.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435844",
           "license": "CC BY 2.0"
         }
       },
@@ -657,7 +657,7 @@ const museumData = [
         "title": "Self-Portrait at 28",
         "artist": "Albrecht Dürer",
         "date": "1500",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Albrecht_D%C3%BCrer_-Self-Portrait_at_28-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
         "keyFeatures": [
           "Panel painting",
           "Christ-like pose",
@@ -666,7 +666,7 @@ const museumData = [
         "workBlurb": "Dürer stages himself with sacred frontality and artisan confidence.",
         "attribution": {
           "creditLine": "Alte Pinakothek / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-Self-Portrait_at_28-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436243",
           "license": "Public domain"
         }
       },
@@ -674,7 +674,7 @@ const museumData = [
         "title": "The Tempest",
         "artist": "Giorgione",
         "date": "c. 1508",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Giorgione_-The_Tempest-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DP246133.jpg",
         "keyFeatures": [
           "Atmospheric landscape",
           "Enigmatic figures",
@@ -683,7 +683,7 @@ const museumData = [
         "workBlurb": "Storm light and half-told narrative invite modern viewers into mystery.",
         "attribution": {
           "creditLine": "Gallerie dell'Accademia / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giorgione_-The_Tempest-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/191809",
           "license": "Public domain"
         }
       },
@@ -691,7 +691,7 @@ const museumData = [
         "title": "The Assumption of the Virgin (detail)",
         "artist": "Titian",
         "date": "1516–1518",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tizian_041.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/rl/original/DP-13487-001.jpg",
         "keyFeatures": [
           "Venetian colorito",
           "Upward spiral",
@@ -700,7 +700,7 @@ const museumData = [
         "workBlurb": "Mary rises through clouds of saturated red and gold—Venetian drama in paint.",
         "attribution": {
           "creditLine": "Photo: Jean-Pierre Dalbéra / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tizian_041.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/458998",
           "license": "CC BY 2.0"
         }
       }
@@ -781,7 +781,7 @@ const museumData = [
         "artist": "Caravaggio",
         "artistId": "caravaggio",
         "date": "1599–1600",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/The_Calling_of_Saint_Matthew-Caravaggio_%281599-1600%29.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-12413-001.jpg",
         "keyFeatures": [
           "Diagonal beam of light",
           "Contemporary dress",
@@ -790,7 +790,7 @@ const museumData = [
         "workBlurb": "Christ’s gesture cuts through shadow to interrupt a tax collector’s counting.",
         "attribution": {
           "creditLine": "Contarelli Chapel, Rome",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Calling_of_Saint_Matthew-Caravaggio_(1599-1600).jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437986",
           "license": "Public domain"
         }
       },
@@ -834,7 +834,7 @@ const museumData = [
         "title": "Ecstasy of Saint Teresa",
         "artist": "Gian Lorenzo Bernini",
         "date": "1647–1652",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Extase_de_Sainte_Th%C3%A9r%C3%A8se_Santa_Maria_della_Vittoria_Rome.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP328663.jpg",
         "keyFeatures": [
           "Marble and bronze",
           "Hidden light source",
@@ -843,7 +843,7 @@ const museumData = [
         "workBlurb": "Sculpture, architecture, and light collaborate in Counter-Reformation spectacle.",
         "attribution": {
           "creditLine": "Photo: Alvesgaspar / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Extase_de_Sainte_Th%C3%A9r%C3%A8se_Santa_Maria_della_Vittoria_Rome.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/647338",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -851,7 +851,7 @@ const museumData = [
         "title": "Las Meninas",
         "artist": "Diego Velázquez",
         "date": "1656",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP221248.jpg",
         "keyFeatures": [
           "Mirror depth",
           "Painter in scene",
@@ -860,7 +860,7 @@ const museumData = [
         "workBlurb": "A princess, her attendants, and the artist’s canvas fold viewers into the room.",
         "attribution": {
           "creditLine": "Museo del Prado",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437874",
           "license": "Public domain"
         }
       },
@@ -886,7 +886,7 @@ const museumData = [
         "title": "Judith Slaying Holofernes",
         "artist": "Artemisia Gentileschi",
         "date": "1612–1613",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Artemisia_Gentileschi_-Judith_Beheading_Holofernes-_WGA8563.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1446.jpg",
         "keyFeatures": [
           "Tenebrism",
           "Female protagonists",
@@ -895,7 +895,7 @@ const museumData = [
         "workBlurb": "Judith and her maid lean into decisive violence with unflinching weight.",
         "attribution": {
           "creditLine": "Museo di Capodimonte",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artemisia_Gentileschi_-Judith_Beheading_Holofernes-_WGA8563.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437745",
           "license": "Public domain"
         }
       },
@@ -903,7 +903,7 @@ const museumData = [
         "title": "The Descent from the Cross",
         "artist": "Peter Paul Rubens",
         "date": "1612–1614",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Peter_Paul_Rubens_031.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/md/original/DP102289.jpg",
         "keyFeatures": [
           "Diagonal body mass",
           "Flemish color",
@@ -912,7 +912,7 @@ const museumData = [
         "workBlurb": "Christ’s dead weight pulls every figure into a cascading diagonal.",
         "attribution": {
           "creditLine": "Cathedral of Our Lady, Antwerp",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_031.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/464156",
           "license": "Public domain"
         }
       },
@@ -920,7 +920,7 @@ const museumData = [
         "title": "Pilgrimage to Cythera",
         "artist": "Jean-Antoine Watteau",
         "date": "1717",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/L%27Embarquement_pour_Cith%C3%A8re%2C_by_Antoine_Watteau%2C_from_Louvre_Museum_Archives.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg",
         "keyFeatures": [
           "Fête galante",
           "Silky brush",
@@ -929,7 +929,7 @@ const museumData = [
         "workBlurb": "Lovers drift toward an island of Venus in feather-light Rococo atmosphere.",
         "attribution": {
           "creditLine": "Louvre / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%27Embarquement_pour_Cith%C3%A8re,_by_Antoine_Watteau,_from_Louvre_Museum_Archives.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437926",
           "license": "Public domain"
         }
       },
@@ -938,7 +938,7 @@ const museumData = [
         "artist": "Rembrandt van Rijn",
         "artistId": "rembrandt",
         "date": "c. 1669",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Rembrandt_Harmensz.van_Rijn-Return_of_the_Prodigal_Son-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP145912.jpg",
         "keyFeatures": [
           "Impasto hands",
           "Forgiveness embrace",
@@ -947,7 +947,7 @@ const museumData = [
         "workBlurb": "Hands and fabrics dissolve into touch—Rembrandt’s last word on mercy.",
         "attribution": {
           "creditLine": "Hermitage Museum",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz.van_Rijn-Return_of_the_Prodigal_Son-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437406",
           "license": "Public domain"
         }
       }
@@ -1028,7 +1028,7 @@ const museumData = [
         "artist": "Jacques-Louis David",
         "artistId": "david",
         "date": "1784",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/David-Oath_of_the_Horatii-1784.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
         "keyFeatures": [
           "Neoclassical frieze",
           "Republican allegory",
@@ -1037,7 +1037,7 @@ const museumData = [
         "workBlurb": "Three brothers salute swords while women collapse—duty over domestic feeling.",
         "attribution": {
           "creditLine": "Louvre / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:David-Oath_of_the_Horatii-1784.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
           "license": "Public domain"
         }
       },
@@ -1046,7 +1046,7 @@ const museumData = [
         "artist": "Jacques-Louis David",
         "artistId": "david",
         "date": "1793",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Death_of_Marat_by_David.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
         "keyFeatures": [
           "Revolutionary martyr",
           "Minimal setting",
@@ -1055,7 +1055,7 @@ const museumData = [
         "workBlurb": "Marat’s bathtub martyrdom is staged as a secular pietà.",
         "attribution": {
           "creditLine": "Royal Museums of Fine Arts of Belgium",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
           "license": "Public domain"
         }
       },
@@ -1080,7 +1080,7 @@ const museumData = [
         "title": "The Raft of the Medusa",
         "artist": "Théodore Géricault",
         "date": "1818–1819",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-La_Balsa_de_la_Medusa%28Museo_del_Louvre%2C_1818-19%29.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT2138.jpg",
         "keyFeatures": [
           "Contemporary disaster",
           "Chiaroscuro raft",
@@ -1089,7 +1089,7 @@ const museumData = [
         "workBlurb": "Shipwreck survivors wave at a distant ship—Romanticism meets investigative outrage.",
         "attribution": {
           "creditLine": "Louvre",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-La_Balsa_de_la_Medusa(Museo_del_Louvre,_1818-19).jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436455",
           "license": "Public domain"
         }
       },
@@ -1115,7 +1115,7 @@ const museumData = [
         "artist": "J.M.W. Turner",
         "artistId": "turner",
         "date": "1844",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Rain_Steam_and_Speed_the_Great_Western_Railway.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/dp/original/DP814342.jpg",
         "keyFeatures": [
           "Industrial modernity",
           "Atmospheric blur",
@@ -1124,7 +1124,7 @@ const museumData = [
         "workBlurb": "A locomotive pierces weather—speed becomes a smear of modern sensation.",
         "attribution": {
           "creditLine": "National Gallery London",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rain_Steam_and_Speed_the_Great_Western_Railway.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/384852",
           "license": "Public domain"
         }
       },
@@ -1133,7 +1133,7 @@ const museumData = [
         "artist": "Francisco Goya",
         "artistId": "goya",
         "date": "1814",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/El_tres_de_mayo_de_1808_en_Madrid.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-22708-001.jpg",
         "keyFeatures": [
           "Anti-heroic execution",
           "Lantern light",
@@ -1142,7 +1142,7 @@ const museumData = [
         "workBlurb": "Victims face firing squad with arms outstretched—modern political painting.",
         "attribution": {
           "creditLine": "Museo del Prado",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_tres_de_mayo_de_1808_en_Madrid.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436551",
           "license": "Public domain"
         }
       },
@@ -1151,7 +1151,7 @@ const museumData = [
         "artist": "Francisco Goya",
         "artistId": "goya",
         "date": "1819–1823",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Francisco_de_Goya%2C_Saturno_devorando_a_su_hijo_%281819-1823%29.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP287624.jpg",
         "keyFeatures": [
           "Black paintings",
           "Mythic horror",
@@ -1160,7 +1160,7 @@ const museumData = [
         "workBlurb": "A private mural of mythic cannibalism—nightmare logic on plaster.",
         "attribution": {
           "creditLine": "Museo del Prado / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,Saturno_devorando_a_su_hijo(1819-1823).jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436545",
           "license": "Public domain"
         }
       },
@@ -1168,7 +1168,7 @@ const museumData = [
         "title": "Grande Odalisque",
         "artist": "Jean-Auguste-Dominique Ingres",
         "date": "1814",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-13728-001.jpg",
         "keyFeatures": [
           "Elongated spine",
           "Orientalist fantasy",
@@ -1177,7 +1177,7 @@ const museumData = [
         "workBlurb": "Neoclassical line meets exoticist imagination in a lounging figure.",
         "attribution": {
           "creditLine": "Louvre",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436708",
           "license": "Public domain"
         }
       },
@@ -1185,7 +1185,7 @@ const museumData = [
         "title": "The Monk by the Sea",
         "artist": "Caspar David Friedrich",
         "date": "1808–1810",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Caspar_David_Friedrich_-Der_M%C3%B6nch_am_Meer-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-31997-001-NEW.jpg",
         "keyFeatures": [
           "Minimal figure",
           "Vast sky",
@@ -1194,7 +1194,7 @@ const museumData = [
         "workBlurb": "A robed speck faces infinite sea and weather—scale reduces theology to feeling.",
         "attribution": {
           "creditLine": "Alte Nationalgalerie / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-Der_M%C3%B6nch_am_Meer-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/438417",
           "license": "Public domain"
         }
       }
@@ -1293,7 +1293,7 @@ const museumData = [
         "title": "Bal du moulin de la Galette",
         "artist": "Pierre-Auguste Renoir",
         "date": "1876",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Auguste_Renoir_-Bal_du_moulin_de_la_Galette-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1874.jpg",
         "keyFeatures": [
           "Dappled outdoor light",
           "Crowd snapshot",
@@ -1302,7 +1302,7 @@ const museumData = [
         "workBlurb": "Parisians mingle on a Sunday—flecks of light dissolve social distance.",
         "attribution": {
           "creditLine": "Musée d'Orsay / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-Bal_du_moulin_de_la_Galette-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/438010",
           "license": "Public domain"
         }
       },
@@ -1328,7 +1328,7 @@ const museumData = [
         "title": "The Ballet Class",
         "artist": "Edgar Degas",
         "date": "1871–1874",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Edgar_Degas_-The_Ballet_Class-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20101-001.jpg",
         "keyFeatures": [
           "Off-center cropping",
           "Pastel and oil",
@@ -1337,7 +1337,7 @@ const museumData = [
         "workBlurb": "Dancers wait under a master’s gaze—everyday discipline as modern subject.",
         "attribution": {
           "creditLine": "Musée d'Orsay / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-The_Ballet_Class-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/438817",
           "license": "Public domain"
         }
       },
@@ -1346,7 +1346,7 @@ const museumData = [
         "artist": "Georges Seurat",
         "artistId": "seurat",
         "date": "1884–1886",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP259921.jpg",
         "keyFeatures": [
           "Pointillist dots",
           "Optical mixing",
@@ -1355,7 +1355,7 @@ const museumData = [
         "workBlurb": "Leisure stiffens into pattern—modern life measured in colored particles.",
         "attribution": {
           "creditLine": "Art Institute of Chicago / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437658",
           "license": "Public domain"
         }
       },
@@ -1381,7 +1381,7 @@ const museumData = [
         "title": "Mont Sainte-Victoire",
         "artist": "Paul Cézanne",
         "date": "1902–1906",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Paul_C%C3%A9zanne_-Mont_Sainte-Victoire-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20099-001.jpg",
         "keyFeatures": [
           "Geometric facets",
           "Provençal light",
@@ -1390,7 +1390,7 @@ const museumData = [
         "workBlurb": "The mountain returns in patches—Cézanne teaches Cubism how to see.",
         "attribution": {
           "creditLine": "Baltimore Museum of Art / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-Mont_Sainte-Victoire-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435877",
           "license": "Public domain"
         }
       },
@@ -1398,7 +1398,7 @@ const museumData = [
         "title": "Olympia",
         "artist": "Édouard Manet",
         "date": "1863",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Edouard_Manet_-Olympia-_Google_Art_Project.jpg",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg",
         "keyFeatures": [
           "Direct gaze",
           "Flat light",
@@ -1407,7 +1407,7 @@ const museumData = [
         "workBlurb": "A studio bed and a black servant with flowers—Parisian modernity confronts the Salon.",
         "attribution": {
           "creditLine": "Musée d'Orsay / Google Art Project",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-Olympia-_Google_Art_Project.jpg",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436964",
           "license": "Public domain"
         }
       },
