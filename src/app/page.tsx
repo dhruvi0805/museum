@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { artMovements } from "@/data/movements";
 import { StickyScroller } from "@/components/scroll/StickyScroller";

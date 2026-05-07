@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import type { ArtEra } from "@/data/movements";
+import { cssBackgroundUrl } from "@/lib/cssBackgroundUrl";
 import { NavBar } from "@/components/ui/NavBar";
 import { ScrollProgress } from "@/components/scroll/ScrollProgress";
 import { Slide } from "@/components/scroll/Slide";
@@ -67,7 +68,7 @@ export function StickyScroller({ slides }: StickyScrollerProps) {
         <div className="absolute inset-0 -z-20">
           <div
             className="h-full w-full bg-cover bg-center transition-all duration-500"
-            style={{ backgroundImage: `url(${activeSlide.bgImage})` }}
+            style={{ backgroundImage: cssBackgroundUrl(activeSlide.bgImage) }}
           />
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/25 to-black/70" />
         </div>

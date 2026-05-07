@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { artMovements } from "@/data/movements";
+import { cssBackgroundUrl } from "@/lib/cssBackgroundUrl";
 import React from "react";
 
 export default function ComparePage() {
@@ -42,7 +43,10 @@ export default function ComparePage() {
             item ? (
               <article key={item.slug} className="rounded-xl border border-white/20 bg-white/10 p-5">
                 <Link href={`/detail?era=${item.slug}`} className="block overflow-hidden rounded-lg">
-                  <div className="h-52 w-full bg-cover bg-center transition duration-300 hover:scale-[1.02]" style={{ backgroundImage: `url(${item.bgImage})` }} />
+                  <div
+                    className="h-52 w-full bg-cover bg-center transition duration-300 hover:scale-[1.02]"
+                    style={{ backgroundImage: cssBackgroundUrl(item.bgImage) }}
+                  />
                 </Link>
                 <Link href={`/detail?era=${item.slug}`}>
                   <h2 className="mt-4 text-2xl font-semibold uppercase hover:underline">{item.title}</h2>

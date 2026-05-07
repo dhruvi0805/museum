@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useCallback, useEffect, useId, useRef, useState, type TouchEvent } from "react";
 import type { MovementBannerSlide } from "@/lib/movementBanner";
 
@@ -102,16 +101,15 @@ export function MovementBannerCarousel({ slides, label }: MovementBannerCarousel
         >
           {slides.map((slide, i) => (
             <div key={`${slide.src}-${i}`} className="relative h-full w-full shrink-0">
-              <Image
+              <img
                 src={slide.src}
                 alt={slide.alt}
-                fill
-                className="object-cover"
+                className="absolute inset-0 h-full w-full object-cover"
                 sizes="100vw"
-                priority={i === 0}
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchPriority={i === 0 ? "high" : undefined}
+                decoding="async"
                 draggable={false}
-                unoptimized
-                referrerPolicy="no-referrer"
               />
             </div>
           ))}

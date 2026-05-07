@@ -121,7 +121,7 @@ const eras = [
         artist: "Unknown Roman sculptor",
         date: "1st century CE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta_inv_2290.jpg/1024px-Augustus_of_Prima_Porta_inv_2290.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta_inv_2290.jpg/960px-Augustus_of_Prima_Porta_inv_2290.jpg",
         keyFeatures: ["Political portraiture", "Cupid ride-along", "Idealized emperor body"],
         workBlurb: "Propaganda in marble: youth, virtue, and dynasty folded into one commanding stance.",
         attribution: att({
@@ -135,7 +135,7 @@ const eras = [
         artist: "Unknown Sumerian artisan",
         date: "~2600–2400 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Standard_of_Ur_-_Peace_Panel_-_British_Museum.jpg/1024px-Standard_of_Ur_-_Peace_Panel_-_British_Museum.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Standard_of_Ur_-_Peace_Panel_-_British_Museum.jpg/960px-Standard_of_Ur_-_Peace_Panel_-_British_Museum.jpg",
         keyFeatures: ["Shell and lapis inlay", "Narrative registers", "Peace and war sides"],
         workBlurb: "Miniature inlaid scenes that read like early graphic novels of state power.",
         attribution: att({
@@ -149,7 +149,7 @@ const eras = [
         artist: "Unknown Babylonian workshop",
         date: "~1754 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Code_of_Hammurabi.jpg/1024px-Code_of_Hammurabi.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Code_of_Hammurabi.jpg/960px-Code_of_Hammurabi.jpg",
         keyFeatures: ["Basalt relief", "Law text in cuneiform", "Shamash and king scene"],
         workBlurb: "Law, religion, and public inscription merged into a single monumental document.",
         attribution: att({
@@ -163,7 +163,7 @@ const eras = [
         artist: "Unknown (Roman copy of Greek painting)",
         date: "~100 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Alexander_Mosaic.jpg/1024px-Alexander_Mosaic.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Alexander_Mosaic.jpg/960px-Alexander_Mosaic.jpg",
         keyFeatures: ["Millions of tesserae", "Battle drama", "Alexander portrait focus"],
         workBlurb: "Floor mosaic that preserves the energy of a lost Hellenistic battle painting.",
         attribution: att({
@@ -177,7 +177,7 @@ const eras = [
         artist: "Unknown Roman painter",
         date: "~60–50 BCE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Pompeii_-_Villa_dei_Misteri_-_Dionysiac_Frieze_-_2019.jpg/1024px-Pompeii_-_Villa_dei_Misteri_-_Dionysiac_Frieze_-_2019.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Pompeii_-_Villa_dei_Misteri_-_Dionysiac_Frieze_-_2019.jpg/960px-Pompeii_-_Villa_dei_Misteri_-_Dionysiac_Frieze_-_2019.jpg",
         keyFeatures: ["Large-scale wall painting", "Initiation narrative", "Vivid Pompeian reds"],
         workBlurb: "A surviving cycle of figures whose ritual story still invites debate.",
         attribution: att({
@@ -219,7 +219,7 @@ const eras = [
         artist: "Irish monastic scribes",
         date: "~800 CE",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KellsFol032vChristEnthroned.jpg/1024px-KellsFol032vChristEnthroned.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KellsFol032vChristEnthroned.jpg/960px-KellsFol032vChristEnthroned.jpg",
         keyFeatures: ["Insular interlace", "Vivid pigments", "Microscopic ornament"],
         workBlurb: "A pinnacle of manuscript luxury where text and pattern become inseparable.",
         attribution: att({
@@ -233,7 +233,7 @@ const eras = [
         artist: "Unknown Anglo-Norman workshop",
         date: "1070s",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bayeux_Tapestry_scene44_William_ODO.jpg/1024px-Bayeux_Tapestry_scene44_William_ODO.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bayeux_Tapestry_scene44_William_ODO.jpg/960px-Bayeux_Tapestry_scene44_William_ODO.jpg",
         keyFeatures: ["Wool on linen", "Sequential narrative", "Norman propaganda"],
         workBlurb: "Embroidered chronicle that reads history as a strip of connected episodes.",
         attribution: att({
@@ -248,7 +248,7 @@ const eras = [
         artistId: "giotto",
         date: "1304–1306",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Giotto_-_Scrovegni_-_-18-_-_Lamentation_%28The_Mourning_of_Christ%29.jpg/1024px-Giotto_-_Scrovegni_-_-18-_-_Lamentation_%28The_Mourning_of_Christ%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Giotto_-_Scrovegni_-_-18-_-_Lamentation_%28The_Mourning_of_Christ%29.jpg/960px-Giotto_-_Scrovegni_-_-18-_-_Lamentation_%28The_Mourning_of_Christ%29.jpg",
         keyFeatures: ["Fresco secco", "Weighted grief", "Rocky landscape stage"],
         workBlurb: "Bodies lean into shared sorrow—an early model of humanist sacred drama.",
         attribution: att({
@@ -263,7 +263,7 @@ const eras = [
         artist: "Unknown Gothic glaziers",
         date: "13th century",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chartres_Rose_Window_1.jpg/1024px-Chartres_Rose_Window_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chartres_Rose_Window_1.jpg/960px-Chartres_Rose_Window_1.jpg",
         keyFeatures: ["Stone tracery", "Blue glass legend", "Marian symbolism"],
         workBlurb: "Light filtered through geometry turns architecture into a luminous diagram of belief.",
         attribution: att({
@@ -277,7 +277,7 @@ const eras = [
         artist: "Byzantine workshop",
         date: "12th century",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Christ_Pantocrator_Mosaic%2C_Monreale.jpg/1024px-Christ_Pantocrator_Mosaic%2C_Monreale.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Christ_Pantocrator_Mosaic%2C_Monreale.jpg/960px-Christ_Pantocrator_Mosaic%2C_Monreale.jpg",
         keyFeatures: ["Gold ground", "Greek inscription", "Royal church program"],
         workBlurb: "A stern, frontal Christ anchors Sicily’s Norman-Byzantine fusion.",
         attribution: att({
@@ -291,7 +291,7 @@ const eras = [
         artist: "Unknown Iberian illuminator",
         date: "~1320",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Golden_Haggadah_Pharaoh_and_the_Midwives.jpg/1024px-Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Golden_Haggadah_Pharaoh_and_the_Midwives.jpg/960px-Golden_Haggadah_Pharaoh_and_the_Midwives.jpg",
         keyFeatures: ["Gold leaf miniature", "Jewish liturgical book", "Narrative clarity"],
         workBlurb:
           "A gold-ground miniature on vellum from the Golden Haggadah, among the most lavish Hebrew manuscripts of the period.",
@@ -306,7 +306,7 @@ const eras = [
         artist: "Byzantine workshop",
         date: "6th century",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ravenna%2C_Basilica_di_San_Vitale%2C_Theodora_mosaic.jpg/1024px-Ravenna%2C_Basilica_di_San_Vitale%2C_Theodora_mosaic.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ravenna%2C_Basilica_di_San_Vitale%2C_Theodora_mosaic.jpg/960px-Ravenna%2C_Basilica_di_San_Vitale%2C_Theodora_mosaic.jpg",
         keyFeatures: ["Imperial purple", "Courtly procession", "Glass tesserae"],
         workBlurb: "Theodora’s retinue glitters with authority beside parallel panels of Justinian.",
         attribution: att({
@@ -320,7 +320,7 @@ const eras = [
         artist: "Unknown Gothic architects & sculptors",
         date: "12th–14th century",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1024px-Notre-Dame_de_Paris_2013-07-24.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/960px-Notre-Dame_de_Paris_2013-07-24.jpg",
         keyFeatures: ["Portal sculpture", "Flying buttresses", "Urban verticality"],
         workBlurb: "Stone theology: portals teach scripture before a visitor enters the nave.",
         attribution: att({
@@ -334,7 +334,7 @@ const eras = [
         artist: "Unknown Anglo-Saxon metalsmith",
         date: "7th century",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sutton_Hoo_helmet_2015.JPG/1024px-Sutton_Hoo_helmet_2015.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sutton_Hoo_helmet_2015.JPG/960px-Sutton_Hoo_helmet_2015.JPG",
         keyFeatures: ["Crested iron and tin", "Animal interlace", "Warrior elite grave"],
         workBlurb: "Elaborate helmet armor signals ritual kingship at the edge of written history.",
         attribution: att({
@@ -348,7 +348,7 @@ const eras = [
         artist: "Unknown Kievan scribe (Deacon Gregory)",
         date: "1056–1057",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ostromir_Gospels_1.jpg/1024px-Ostromir_Gospels_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ostromir_Gospels_1.jpg/960px-Ostromir_Gospels_1.jpg",
         keyFeatures: ["East Slavic illumination", "Christ in majesty", "Court commission"],
         workBlurb: "One of the earliest dated East Slavic books, bridging Byzantine models and local power.",
         attribution: att({
@@ -403,7 +403,7 @@ const eras = [
         artistId: "botticelli",
         date: "1484–1486",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1024px-Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
         keyFeatures: ["Tempera on canvas", "Classical myth", "Linear grace"],
         workBlurb: "Venus arrives on a shell—an emblem of revived antiquity in Florence.",
         attribution: att({
@@ -418,7 +418,7 @@ const eras = [
         artistId: "leonardo",
         date: "1495–1498",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/1024px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/960px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg",
         keyFeatures: ["Linear perspective", "Psychological grouping", "Experimental mural technique"],
         workBlurb: "Christ’s announcement of betrayal ripples through twelve distinct reactions.",
         attribution: att({
@@ -433,7 +433,7 @@ const eras = [
         artistId: "raphael",
         date: "1509–1511",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1024px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
         keyFeatures: ["Fresco", "Philosophers’ summit", "Central perspective"],
         workBlurb: "Plato and Aristotle stride through an ideal classical architecture of thought.",
         attribution: att({
@@ -449,7 +449,7 @@ const eras = [
         artistId: "michelangelo",
         date: "1508–1512",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1024px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/960px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
         keyFeatures: ["Fresco", "Torsion and touch", "Theological focus"],
         workBlurb: "The near-touch of fingers compresses Genesis into one charged diagonal.",
         attribution: att({
@@ -464,7 +464,7 @@ const eras = [
         artistId: "leonardo",
         date: "c. 1503–1519",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1024px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
         keyFeatures: ["Sfumato", "Landscape depth", "Portrait psychologism"],
         workBlurb: "A seated woman, a winding road, and a smile that launched endless reproduction.",
         attribution: att({
@@ -479,7 +479,7 @@ const eras = [
         artistId: "vanEyck",
         date: "1434",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/1024px-Van_Eyck_-_Arnolfini_Portrait.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/960px-Van_Eyck_-_Arnolfini_Portrait.jpg",
         keyFeatures: ["Oil on oak", "Convex mirror", "Domestic symbolism"],
         workBlurb: "A wedding chamber becomes a catalog of textures, reflections, and social ritual.",
         attribution: att({
@@ -494,7 +494,7 @@ const eras = [
         artistId: "michelangelo",
         date: "1501–1504",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Michelangelo%27s_David_-_63_gobeirne.jpg/1024px-Michelangelo%27s_David_-_63_gobeirne.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Michelangelo%27s_David_-_63_gobeirne.jpg/960px-Michelangelo%27s_David_-_63_gobeirne.jpg",
         keyFeatures: ["Carrara marble", "Contrapposto", "Civic symbol"],
         workBlurb: "Youth before battle—scale and polish turn biblical hero into Florentine pride.",
         attribution: att({
@@ -508,7 +508,7 @@ const eras = [
         artist: "Albrecht Dürer",
         date: "1500",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Albrecht_D%C3%BCrer_-_Self-Portrait_at_the_Age_of_Twenty-Eight_-_Google_Art_Project.jpg/1024px-Albrecht_D%C3%BCrer_-_Self-Portrait_at_the_Age_of_Twenty-Eight_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Albrecht_D%C3%BCrer_-_Self-Portrait_at_the_Age_of_Twenty-Eight_-_Google_Art_Project.jpg/960px-Albrecht_D%C3%BCrer_-_Self-Portrait_at_the_Age_of_Twenty-Eight_-_Google_Art_Project.jpg",
         keyFeatures: ["Panel painting", "Christ-like pose", "Northern detail"],
         workBlurb: "Dürer stages himself with sacred frontality and artisan confidence.",
         attribution: att({
@@ -523,7 +523,7 @@ const eras = [
         artist: "Giorgione",
         date: "c. 1508",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Giorgione_-_The_Tempest_-_Google_Art_Project.jpg/1024px-Giorgione_-_The_Tempest_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Giorgione_-_The_Tempest_-_Google_Art_Project.jpg/960px-Giorgione_-_The_Tempest_-_Google_Art_Project.jpg",
         keyFeatures: ["Atmospheric landscape", "Enigmatic figures", "Oil on canvas"],
         workBlurb: "Storm light and half-told narrative invite modern viewers into mystery.",
         attribution: att({
@@ -537,7 +537,7 @@ const eras = [
         artist: "Titian",
         date: "1516–1518",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tizian_041.jpg/1024px-Tizian_041.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tizian_041.jpg/960px-Tizian_041.jpg",
         keyFeatures: ["Venetian colorito", "Upward spiral", "Frari altarpiece"],
         workBlurb: "Mary rises through clouds of saturated red and gold—Venetian drama in paint.",
         attribution: att({
@@ -586,7 +586,7 @@ const eras = [
         artistId: "caravaggio",
         date: "1599–1600",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Michelangelo_Merisi_da_Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/1024px-Michelangelo_Merisi_da_Caravaggio_-_The_Calling_of_Saint_Matthew.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Michelangelo_Merisi_da_Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/960px-Michelangelo_Merisi_da_Caravaggio_-_The_Calling_of_Saint_Matthew.jpg",
         keyFeatures: ["Diagonal beam of light", "Contemporary dress", "Sacred narrative in a tavern"],
         workBlurb: "Christ’s gesture cuts through shadow to interrupt a tax collector’s counting.",
         attribution: att({
@@ -602,7 +602,7 @@ const eras = [
         artistId: "rembrandt",
         date: "1642",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/1024px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/960px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
         keyFeatures: ["Group militia portrait", "Tenebrism", "Kinetic arrangement"],
         workBlurb: "Amsterdam civic guards become a theater of motion and interrupted ceremony.",
         attribution: att({
@@ -617,7 +617,7 @@ const eras = [
         artistId: "vermeer",
         date: "c. 1665",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1024px-1665_Girl_with_a_Pearl_Earring.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg",
         keyFeatures: ["Tronie", "Soft focus scarf", "Single pearl highlight"],
         workBlurb: "A turned head and open mouth suggest speech caught at the edge of hearing.",
         attribution: att({
@@ -631,7 +631,7 @@ const eras = [
         artist: "Gian Lorenzo Bernini",
         date: "1647–1652",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ecstasy_of_St_Theresa_SM_della_Vittoria.jpg/1024px-Ecstasy_of_St_Theresa_SM_della_Vittoria.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ecstasy_of_St_Theresa_SM_della_Vittoria.jpg/960px-Ecstasy_of_St_Theresa_SM_della_Vittoria.jpg",
         keyFeatures: ["Marble and bronze", "Hidden light source", "Theatrical altar"],
         workBlurb: "Sculpture, architecture, and light collaborate in Counter-Reformation spectacle.",
         attribution: att({
@@ -645,7 +645,7 @@ const eras = [
         artist: "Diego Velázquez",
         date: "1656",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_thin_black_margin.jpg/1024px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_thin_black_margin.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_thin_black_margin.jpg/960px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_thin_black_margin.jpg",
         keyFeatures: ["Mirror depth", "Painter in scene", "Court ritual"],
         workBlurb: "A princess, her attendants, and the artist’s canvas fold viewers into the room.",
         attribution: att({
@@ -661,7 +661,7 @@ const eras = [
         artistId: "vermeer",
         date: "c. 1657–1658",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1024px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/960px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
         keyFeatures: ["Bread crust texture", "Domestic altar", "Restricted palette"],
         workBlurb: "Pouring milk becomes a meditation on touch, weight, and humble plenty.",
         attribution: att({
@@ -675,7 +675,7 @@ const eras = [
         artist: "Artemisia Gentileschi",
         date: "1612–1613",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Artemisia_Gentileschi_-_Judith_Beheading_Holofernes_-_Naples_version.jpg/1024px-Artemisia_Gentileschi_-_Judith_Beheading_Holofernes_-_Naples_version.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Artemisia_Gentileschi_-_Judith_Beheading_Holofernes_-_Naples_version.jpg/960px-Artemisia_Gentileschi_-_Judith_Beheading_Holofernes_-_Naples_version.jpg",
         keyFeatures: ["Tenebrism", "Female protagonists", "Splatter realism"],
         workBlurb: "Judith and her maid lean into decisive violence with unflinching weight.",
         attribution: att({
@@ -690,7 +690,7 @@ const eras = [
         artist: "Peter Paul Rubens",
         date: "1612–1614",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Peter_Paul_Rubens_-_The_Descent_from_the_Cross_-_WGA20225.jpg/1024px-Peter_Paul_Rubens_-_The_Descent_from_the_Cross_-_WGA20225.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Peter_Paul_Rubens_-_The_Descent_from_the_Cross_-_WGA20225.jpg/960px-Peter_Paul_Rubens_-_The_Descent_from_the_Cross_-_WGA20225.jpg",
         keyFeatures: ["Diagonal body mass", "Flemish color", "Emotional choreography"],
         workBlurb: "Christ’s dead weight pulls every figure into a cascading diagonal.",
         attribution: att({
@@ -704,7 +704,7 @@ const eras = [
         artist: "Jean-Antoine Watteau",
         date: "1717",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antoine_Watteau_-_The_Embarkation_for_Cythera_-_Google_Art_Project.jpg/1024px-Antoine_Watteau_-_The_Embarkation_for_Cythera_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Antoine_Watteau_-_The_Embarkation_for_Cythera_-_Google_Art_Project.jpg/960px-Antoine_Watteau_-_The_Embarkation_for_Cythera_-_Google_Art_Project.jpg",
         keyFeatures: ["Fête galante", "Silky brush", "Pastel landscape"],
         workBlurb: "Lovers drift toward an island of Venus in feather-light Rococo atmosphere.",
         attribution: att({
@@ -720,7 +720,7 @@ const eras = [
         artistId: "rembrandt",
         date: "c. 1669",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Rembrandt_-_The_Return_of_the_Prodigal_Son.jpg/1024px-Rembrandt_-_The_Return_of_the_Prodigal_Son.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Rembrandt_-_The_Return_of_the_Prodigal_Son.jpg/960px-Rembrandt_-_The_Return_of_the_Prodigal_Son.jpg",
         keyFeatures: ["Impasto hands", "Forgiveness embrace", "Late palette"],
         workBlurb: "Hands and fabrics dissolve into touch—Rembrandt’s last word on mercy.",
         attribution: att({
@@ -769,7 +769,7 @@ const eras = [
         artistId: "david",
         date: "1784",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg/1024px-Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg/960px-Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg",
         keyFeatures: ["Neoclassical frieze", "Republican allegory", "Primary geometry"],
         workBlurb: "Three brothers salute swords while women collapse—duty over domestic feeling.",
         attribution: att({
@@ -785,7 +785,7 @@ const eras = [
         artistId: "david",
         date: "1793",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Death_of_Marat_by_David.jpg/1024px-Death_of_Marat_by_David.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Death_of_Marat_by_David.jpg/960px-Death_of_Marat_by_David.jpg",
         keyFeatures: ["Revolutionary martyr", "Minimal setting", "Journalistic detail"],
         workBlurb: "Marat’s bathtub martyrdom is staged as a secular pietà.",
         attribution: att({
@@ -799,7 +799,7 @@ const eras = [
         artist: "Eugène Delacroix",
         date: "1830",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/1024px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
         keyFeatures: ["July Revolution allegory", "Smoke and barricade", "Dynamic pyramid"],
         workBlurb: "Marianne strides over bodies—romantic history painting meets newsreel urgency.",
         attribution: att({
@@ -813,7 +813,7 @@ const eras = [
         artist: "Théodore Géricault",
         date: "1818–1819",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1024px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
         keyFeatures: ["Contemporary disaster", "Chiaroscuro raft", "Hope and horror"],
         workBlurb: "Shipwreck survivors wave at a distant ship—Romanticism meets investigative outrage.",
         attribution: att({
@@ -828,7 +828,7 @@ const eras = [
         artist: "Caspar David Friedrich",
         date: "c. 1818",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1024px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
         keyFeatures: ["Rückenfigur", "Sublime vista", "German Romanticism"],
         workBlurb: "A lone figure overlooks mist—self and nature merge at a cliff’s edge.",
         attribution: att({
@@ -843,7 +843,7 @@ const eras = [
         artistId: "turner",
         date: "1844",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Rain%2C_Steam_and_Speed_the_Great_Western_Railway.jpg/1024px-Rain%2C_Steam_and_Speed_the_Great_Western_Railway.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Rain%2C_Steam_and_Speed_the_Great_Western_Railway.jpg/960px-Rain%2C_Steam_and_Speed_the_Great_Western_Railway.jpg",
         keyFeatures: ["Industrial modernity", "Atmospheric blur", "Bridge geometry"],
         workBlurb: "A locomotive pierces weather—speed becomes a smear of modern sensation.",
         attribution: att({
@@ -858,7 +858,7 @@ const eras = [
         artistId: "goya",
         date: "1814",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1024px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/960px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
         keyFeatures: ["Anti-heroic execution", "Lantern light", "Spanish resistance"],
         workBlurb: "Victims face firing squad with arms outstretched—modern political painting.",
         attribution: att({
@@ -874,7 +874,7 @@ const eras = [
         artistId: "goya",
         date: "1819–1823",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_His_Sons_-_Google_Art_Project.jpg/1024px-Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_His_Sons_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_His_Sons_-_Google_Art_Project.jpg/960px-Francisco_de_Goya_y_Lucientes_-_Saturn_Devouring_One_of_His_Sons_-_Google_Art_Project.jpg",
         keyFeatures: ["Black paintings", "Mythic horror", "Loose brush inside house"],
         workBlurb: "A private mural of mythic cannibalism—nightmare logic on plaster.",
         attribution: att({
@@ -889,7 +889,7 @@ const eras = [
         artist: "Jean-Auguste-Dominique Ingres",
         date: "1814",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg/1024px-Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg/960px-Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg",
         keyFeatures: ["Elongated spine", "Orientalist fantasy", "Cool contour line"],
         workBlurb: "Neoclassical line meets exoticist imagination in a lounging figure.",
         attribution: att({
@@ -904,7 +904,7 @@ const eras = [
         artist: "Caspar David Friedrich",
         date: "1808–1810",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/1024px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg/960px-Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg",
         keyFeatures: ["Minimal figure", "Vast sky", "Sublime emptiness"],
         workBlurb: "A robed speck faces infinite sea and weather—scale reduces theology to feeling.",
         attribution: att({
@@ -954,7 +954,7 @@ const eras = [
         artistId: "monet",
         date: "1872",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/1024px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
         keyFeatures: ["Harbor haze", "Sketchlike brush", "Name-giving movement"],
         workBlurb: "Orange sun over Le Havre—critics borrowed its title to name a revolution.",
         attribution: att({
@@ -968,7 +968,7 @@ const eras = [
         artist: "Pierre-Auguste Renoir",
         date: "1876",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette_-_Google_Art_Project.jpg/1024px-Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette_-_Google_Art_Project.jpg/960px-Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette_-_Google_Art_Project.jpg",
         keyFeatures: ["Dappled outdoor light", "Crowd snapshot", "Feathered edges"],
         workBlurb: "Parisians mingle on a Sunday—flecks of light dissolve social distance.",
         attribution: att({
@@ -984,7 +984,7 @@ const eras = [
         artistId: "vangogh",
         date: "1889",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
         keyFeatures: ["Impasto sky", "Cypress flame", "Village below"],
         workBlurb: "A hospital view becomes cosmic weather—emotion overtakes naturalistic night.",
         attribution: att({
@@ -998,7 +998,7 @@ const eras = [
         artist: "Edgar Degas",
         date: "1871–1874",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg/1024px-Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg/960px-Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg",
         keyFeatures: ["Off-center cropping", "Pastel and oil", "Rehearsal modernity"],
         workBlurb: "Dancers wait under a master’s gaze—everyday discipline as modern subject.",
         attribution: att({
@@ -1013,7 +1013,7 @@ const eras = [
         artistId: "seurat",
         date: "1884–1886",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/1024px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/960px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
         keyFeatures: ["Pointillist dots", "Optical mixing", "Park geometry"],
         workBlurb: "Leisure stiffens into pattern—modern life measured in colored particles.",
         attribution: att({
@@ -1029,7 +1029,7 @@ const eras = [
         artistId: "monet",
         date: "1906",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/1024px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/960px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
         keyFeatures: ["Reflective surface", "Horizon dissolved", "Serial motif"],
         workBlurb: "Pond and sky trade places—late Monet turns garden into abstract shimmer.",
         attribution: att({
@@ -1044,7 +1044,7 @@ const eras = [
         artist: "Paul Cézanne",
         date: "1902–1906",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paul_C%C3%A9zanne%2C_French_-_The_Mont_Sainte-Victoire_Seen_from_the_Bib%C3%A9mus_Quarry_-_Google_Art_Project.jpg/1024px-Paul_C%C3%A9zanne%2C_French_-_The_Mont_Sainte-Victoire_Seen_from_the_Bib%C3%A9mus_Quarry_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paul_C%C3%A9zanne%2C_French_-_The_Mont_Sainte-Victoire_Seen_from_the_Bib%C3%A9mus_Quarry_-_Google_Art_Project.jpg/960px-Paul_C%C3%A9zanne%2C_French_-_The_Mont_Sainte-Victoire_Seen_from_the_Bib%C3%A9mus_Quarry_-_Google_Art_Project.jpg",
         keyFeatures: ["Geometric facets", "Provençal light", "Depth via planes"],
         workBlurb: "The mountain returns in patches—Cézanne teaches Cubism how to see.",
         attribution: att({
@@ -1059,7 +1059,7 @@ const eras = [
         artist: "Édouard Manet",
         date: "1863",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%C3%89douard_Manet_-_Olympia_-_Google_Art_Project_3.jpg/1024px-%C3%89douard_Manet_-_Olympia_-_Google_Art_Project_3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%C3%89douard_Manet_-_Olympia_-_Google_Art_Project_3.jpg/960px-%C3%89douard_Manet_-_Olympia_-_Google_Art_Project_3.jpg",
         keyFeatures: ["Direct gaze", "Flat light", "Modern courtesan subject"],
         workBlurb: "A studio bed and a black servant with flowers—Parisian modernity confronts the Salon.",
         attribution: att({
@@ -1073,7 +1073,7 @@ const eras = [
         artist: "Henri de Toulouse-Lautrec",
         date: "1892–1895",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_Google_Art_Project.jpg/1024px-Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_Google_Art_Project.jpg/960px-Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_Google_Art_Project.jpg",
         keyFeatures: ["Gaslight green", "Poster flatness", "Nightlife sociology"],
         workBlurb: "Cabaret mirrors and cropped faces compress Paris night into graphic slices.",
         attribution: att({
@@ -1088,7 +1088,7 @@ const eras = [
         artist: "Mary Cassatt",
         date: "1893",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg/1024px-Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg/960px-Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg",
         keyFeatures: ["Domestic intimacy", "Japanese print flattening", "Pastel stroke"],
         workBlurb: "Mother and child share a ritual touch—Impressionism meets private life.",
         attribution: att({
@@ -1136,7 +1136,7 @@ const eras = [
         artistId: "picasso",
         date: "1907",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/1024px-Les_Demoiselles_d%27Avignon.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/960px-Les_Demoiselles_d%27Avignon.jpg",
         keyFeatures: ["Iberian and African masks", "Brothel subject", "Proto-Cubist space"],
         workBlurb: "Five figures stare out—Picasso breaks Renaissance space into confrontation.",
         attribution: att({
@@ -1151,7 +1151,7 @@ const eras = [
         artistId: "duchamp",
         date: "1917",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/duchamp_fountaine.jpg/1024px-duchamp_fountaine.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/duchamp_fountaine.jpg/960px-duchamp_fountaine.jpg",
         keyFeatures: ["Readymade", "Signature R. Mutt", "Institutional provocation"],
         workBlurb: "A rotated urinal asks who authorizes art—a hinge for modern theory.",
         attribution: att({
@@ -1178,7 +1178,7 @@ const eras = [
         artist: "Piet Mondrian",
         date: "1942–1943",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg/1024px-Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg/960px-Piet_Mondrian_-_Broadway_Boogie_Woogie_-_Google_Art_Project.jpg",
         keyFeatures: ["NYC rhythm", "Primary grid", "Boogie syncopation"],
         workBlurb: "Mondrian’s last grid pulses like traffic and jazz in wartime New York.",
         attribution: att({
@@ -1193,7 +1193,7 @@ const eras = [
         artist: "Wassily Kandinsky",
         date: "1913",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vassily_Kandinsky_-_Composition_7_-_Google_Art_Project.jpg/1024px-Vassily_Kandinsky_-_Composition_7_-_Google_Art_Project.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vassily_Kandinsky_-_Composition_7_-_Google_Art_Project.jpg/960px-Vassily_Kandinsky_-_Composition_7_-_Google_Art_Project.jpg",
         keyFeatures: ["Apocalyptic color", "Spiritual abstraction", "Chaos to order"],
         workBlurb: "Kandinsky orchestrates collision and rescue in non-objective drama.",
         attribution: att({
@@ -1207,7 +1207,7 @@ const eras = [
         artist: "Henri Matisse",
         date: "1909",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Matissedance.jpg/1024px-Matissedance.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Matissedance.jpg/960px-Matissedance.jpg",
         keyFeatures: ["Fauvist color", "Primal circle", "Decorative flatness"],
         workBlurb: "Five figures loop in red, green, blue—modernism claims joy as subject.",
         attribution: att({
@@ -1222,7 +1222,7 @@ const eras = [
         artistId: "picasso",
         date: "1937",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/1024px-PicassoGuernica.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/960px-PicassoGuernica.jpg",
         keyFeatures: ["Monochrome monument", "War allegory", "Cubist collage space"],
         workBlurb: "Bombing becomes a mural scream—Spain’s trauma in fractured animals and women.",
         attribution: att({
@@ -1236,7 +1236,7 @@ const eras = [
         artist: "Edward Hopper",
         date: "1942",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1024px-Nighthawks_by_Edward_Hopper_1942.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/960px-Nighthawks_by_Edward_Hopper_1942.jpg",
         keyFeatures: ["Nocturnal diner", "Psychological isolation", "Cinematic light"],
         workBlurb: "Fluorescence traps strangers—American loneliness in one window frame.",
         attribution: att({
@@ -1251,7 +1251,7 @@ const eras = [
         artistId: "pollock",
         date: "1950",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg/1024px-Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg/960px-Jackson_Pollock_-_Autumn_Rhythm_%28Number_30%29.jpg",
         keyFeatures: ["All-over field", "Drip line", "Scale and pace"],
         workBlurb: "Brown, black, white skeins record bodily rhythm across unstretched canvas.",
         attribution: att({
@@ -1265,7 +1265,7 @@ const eras = [
         artist: "Mark Rothko",
         date: "1961",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg/1024px-Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg/960px-Mark_Rothko_-_Orange%2C_Red%2C_Yellow.jpg",
         keyFeatures: ["Stacked color bands", "Luminous veil", "Postwar sublime"],
         workBlurb: "Warm rectangles hover—Rothko slows viewing into duration and breath.",
         attribution: att({
@@ -1314,7 +1314,7 @@ const eras = [
         artistId: "warhol",
         date: "1962",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg/1024px-Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg/960px-Andy_Warhol_Marilyn_Diptych_%28Tate%29.jpg",
         keyFeatures: ["Silkscreen repetition", "Celebrity icon", "Silk and disaster"],
         workBlurb: "Marilyn’s face multiplies toward fade—fame and mortality in one diptych.",
         attribution: att({
@@ -1329,7 +1329,7 @@ const eras = [
         artistId: "kusama",
         date: "1965–present (series)",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Yayoi_Kusama_Infinity_Mirror_Room.jpg/1024px-Yayoi_Kusama_Infinity_Mirror_Room.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Yayoi_Kusama_Infinity_Mirror_Room.jpg/960px-Yayoi_Kusama_Infinity_Mirror_Room.jpg",
         keyFeatures: ["LED reflections", "Mirror chamber", "Participatory installation"],
         workBlurb: "A chamber of lights multiplies the viewer into countless copies.",
         attribution: att({
@@ -1344,7 +1344,7 @@ const eras = [
         artistId: "aiweiwei",
         date: "2010",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sunflower_seeds_tate_modern_2010.jpg/1024px-Sunflower_seeds_tate_modern_2010.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sunflower_seeds_tate_modern_2010.jpg/960px-Sunflower_seeds_tate_modern_2010.jpg",
         keyFeatures: ["Porcelain multiplicity", "Turbine Hall", "Labor commentary"],
         workBlurb: "Millions of hand-painted seeds carpet the floor—individual and mass in tension.",
         attribution: att({
@@ -1358,7 +1358,7 @@ const eras = [
         artist: "Jean-Michel Basquiat",
         date: "1981",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg/1024px-Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg/960px-Jean-Michel_Basquiat_-_Untitled_%281981%29.jpg",
         keyFeatures: ["Neo-expressionism", "Graffiti syntax", "Raw iconography"],
         workBlurb: "Crown and skull scrawl across canvas—downtown New York enters the canon.",
         attribution: att({
@@ -1372,7 +1372,7 @@ const eras = [
         artist: "Damien Hirst",
         date: "1991",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Hirst_shark.jpg/1024px-Hirst_shark.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Hirst_shark.jpg/960px-Hirst_shark.jpg",
         keyFeatures: ["Formaldehyde vitrine", "YBA spectacle", "Memento mori"],
         workBlurb: "A tiger shark floats in blue—contemporary art meets natural history dread.",
         attribution: att({
@@ -1386,7 +1386,7 @@ const eras = [
         artist: "Jeff Koons",
         date: "1994–2000",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BalloonDog_Orange.jpg/1024px-BalloonDog_Orange.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BalloonDog_Orange.jpg/960px-BalloonDog_Orange.jpg",
         keyFeatures: ["Mirror stainless steel", "Inflated toy form", "Pop monument"],
         workBlurb: "Childhood balloon becomes monumental chrome—surface and spectacle merge.",
         attribution: att({
@@ -1400,7 +1400,7 @@ const eras = [
         artist: "Anish Kapoor",
         date: "2004–2006",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cloud_Gate%2C_Chicago.jpg/1024px-Cloud_Gate%2C_Chicago.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cloud_Gate%2C_Chicago.jpg/960px-Cloud_Gate%2C_Chicago.jpg",
         keyFeatures: ["Seamless steel", "Public plaza", "Distorted skyline"],
         workBlurb: "The bean reflects Chicago—sculpture as collective selfie and mirror.",
         attribution: att({
@@ -1414,7 +1414,7 @@ const eras = [
         artist: "Cindy Sherman",
         date: "1978",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Cindy_Sherman_Untitled_Film_Still_21.jpg/1024px-Cindy_Sherman_Untitled_Film_Still_21.jpg",
+          "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Cindy_Sherman_Untitled_Film_Still_21.jpg/960px-Cindy_Sherman_Untitled_Film_Still_21.jpg",
         keyFeatures: ["Self as actress", "Black-and-white serial", "Gender performance"],
         workBlurb: "Sherman stages herself as a noir heroine—photography critiques Hollywood types.",
         attribution: att({
@@ -1428,7 +1428,7 @@ const eras = [
         artist: "Louise Bourgeois",
         date: "1999",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Maman%2C_Ottawa.jpg/1024px-Maman%2C_Ottawa.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Maman%2C_Ottawa.jpg/960px-Maman%2C_Ottawa.jpg",
         keyFeatures: ["Bronze and marble eggs", "Monumental arachnid", "Maternal metaphor"],
         workBlurb: "A towering spider guards eggs—family psychology cast at civic scale.",
         attribution: att({
@@ -1442,7 +1442,7 @@ const eras = [
         artist: "Robert Indiana",
         date: "1970 (edition)",
         imageUrl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Love_sculpture_Indianapolis.jpg/1024px-Love_sculpture_Indianapolis.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Love_sculpture_Indianapolis.jpg/960px-Love_sculpture_Indianapolis.jpg",
         keyFeatures: ["Typographic icon", "Pop minimalism", "Public landmark"],
         workBlurb: "Four letters tilt into a logo—1960s optimism cast in steel.",
         attribution: att({

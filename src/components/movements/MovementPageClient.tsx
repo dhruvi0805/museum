@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import type { ArtEra } from "@/data/movements";
 import type { CanonicalArtwork } from "@/lib/eraTypes";
@@ -79,16 +78,14 @@ export function MovementPageClient({ movement, eraIndex, prev, next }: MovementP
             <RevealSection key={`${work.title}-${i}`} className="scroll-mt-8">
               <article className="flex flex-col gap-0">
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/20 bg-black/40 shadow-xl">
-                  <Image
+                  <img
                     src={work.imageUrl}
                     alt={`${work.title} by ${work.artist}`}
-                    fill
-                    className="object-cover"
+                    className="absolute inset-0 h-full w-full object-cover"
                     sizes="(max-width: 1024px) 100vw, 1024px"
                     loading={i < 2 ? "eager" : "lazy"}
-                    priority={i === 0}
-                    unoptimized
-                    referrerPolicy="no-referrer"
+                    fetchPriority={i === 0 ? "high" : undefined}
+                    decoding="async"
                   />
                 </div>
                 <div className="relative z-[1] -mt-10 mx-auto w-full max-w-3xl rounded-2xl border border-white/25 bg-white/10 px-6 py-8 shadow-2xl backdrop-blur-xl md:px-10 md:py-9">
