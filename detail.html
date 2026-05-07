@@ -8,6 +8,11 @@
 </head>
 <body class="detail-page">
 
+  <nav id="artworkTimeline" class="artwork-timeline" aria-label="Artwork navigation" hidden>
+    <div class="timeline-line" aria-hidden="true"></div>
+    <div class="timeline-dots" id="timelineDots"></div>
+  </nav>
+
   <div class="detail-layout">
     <header class="detail-header">
       <a href="index.html" class="back-link">
@@ -21,6 +26,11 @@
       <!-- Injected by JS -->
     </div>
   </div>
+
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top" hidden>
+    <span class="btt-arrow">↑</span>
+    <span class="btt-label">Top</span>
+  </button>
 
   <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="src/data/data.js"></script>

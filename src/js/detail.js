@@ -19,7 +19,7 @@ function artistBlurb(era, work) {
   return `${work.artist} worked within the visual world of ${era.title}, leaving a mark on how we read art from ${work.date}.`;
 }
 
-/** Banner slides: same source as Next `getMovementBannerSlides` (artworks only; fallback to bgImage). */
+/** Banner slides: artwork images with fallback to era bgImage. */
 function buildBannerSlides(era) {
   const works = era.artworks || [];
   if (works.length === 0) {
@@ -31,46 +31,41 @@ function buildBannerSlides(era) {
   }));
 }
 
+/**
+ * Cinematic fade carousel — auto-rotating, no arrows.
+ * Pauses on hover / focus-in, resumes on leave.
+ * Respects prefers-reduced-motion.
+ */
 function initDetailHeroCarousel(region, slides) {
   if (!region || slides.length === 0) return;
 
-  const track = region.querySelector(".detail-hero-carousel-track");
-  const btnPrev = region.querySelector(".detail-carousel-prev");
-  const btnNext = region.querySelector(".detail-carousel-next");
+  const slideEls = region.querySelectorAll(".detail-hero-slide");
   const dotsWrap = region.querySelector(".detail-hero-carousel-dots");
 
   let index = 0;
   const count = slides.length;
   const mqReduce = window.matchMedia("(prefers-reduced-motion: reduce)");
   let reduceMotion = mqReduce.matches;
+  mqReduce.addEventListener("change", () => { reduceMotion = mqReduce.matches; });
 
-  const onReduceChange = () => {
-    reduceMotion = mqReduce.matches;
-  };
-  mqReduce.addEventListener("change", onReduceChange);
+  let autoplayTimer = null;
 
-  function setTrackTransform(animate) {
-    if (!track) return;
-    if (reduceMotion || animate === false) {
-      track.classList.remove("is-animated");
-    } else {
-      track.classList.add("is-animated");
-    }
-    track.style.transform = `translateX(-${index * 100}%)`;
+  function syncSlides() {
+    slideEls.forEach((el, i) => el.classList.toggle("is-active", i === index));
   }
 
   function syncDots() {
     if (!dotsWrap) return;
     dotsWrap.querySelectorAll(".detail-carousel-dot").forEach((btn, i) => {
-      const selected = i === index;
-      btn.classList.toggle("is-selected", selected);
-      btn.setAttribute("aria-current", selected ? "true" : "false");
+      const active = i === index;
+      btn.classList.toggle("is-selected", active);
+      btn.setAttribute("aria-current", active ? "true" : "false");
     });
   }
 
   function goTo(nextIndex) {
     index = ((nextIndex % count) + count) % count;
-    setTrackTransform(true);
+    syncSlides();
     syncDots();
   }
 
@@ -78,23 +73,42 @@ function initDetailHeroCarousel(region, slides) {
     goTo(index + delta);
   }
 
-  setTrackTransform(false);
-  syncDots();
+  function startAutoplay() {
+    if (count < 2 || reduceMotion || autoplayTimer) return;
+    autoplayTimer = setInterval(() => go(1), 5000);
+  }
 
-  btnPrev?.addEventListener("click", () => go(-1));
-  btnNext?.addEventListener("click", () => go(1));
+  function stopAutoplay() {
+    if (autoplayTimer) {
+      clearInterval(autoplayTimer);
+      autoplayTimer = null;
+    }
+  }
+
+  syncSlides();
+  syncDots();
+  startAutoplay();
+
+  region.addEventListener("mouseenter", stopAutoplay);
+  region.addEventListener("mouseleave", startAutoplay);
+  region.addEventListener("focusin", stopAutoplay);
+  region.addEventListener("focusout", startAutoplay);
 
   dotsWrap?.querySelectorAll(".detail-carousel-dot").forEach((btn) => {
     btn.addEventListener("click", () => {
       const i = Number(btn.getAttribute("data-slide-index"));
-      if (!Number.isNaN(i)) goTo(i);
+      if (!Number.isNaN(i)) {
+        stopAutoplay();
+        goTo(i);
+        startAutoplay();
+      }
     });
   });
 
   let touchStartX = null;
   region.addEventListener("touchstart", (e) => {
     touchStartX = e.changedTouches[0]?.clientX ?? null;
-  });
+  }, { passive: true });
   region.addEventListener("touchend", (e) => {
     const start = touchStartX;
     touchStartX = null;
@@ -102,27 +116,112 @@ function initDetailHeroCarousel(region, slides) {
     const end = e.changedTouches[0]?.clientX ?? start;
     const dx = end - start;
     if (Math.abs(dx) < 40) return;
-    if (dx < 0) go(1);
-    else go(-1);
+    stopAutoplay();
+    go(dx < 0 ? 1 : -1);
+    startAutoplay();
   });
 
   region.addEventListener("keydown", (e) => {
     if (count < 2) return;
-    if (e.key === "ArrowLeft") {
+    const actions = {
+      ArrowLeft: () => go(-1),
+      ArrowRight: () => go(1),
+      Home: () => goTo(0),
+      End: () => goTo(count - 1),
+    };
+    if (actions[e.key]) {
       e.preventDefault();
-      go(-1);
-    } else if (e.key === "ArrowRight") {
-      e.preventDefault();
-      go(1);
-    } else if (e.key === "Home") {
-      e.preventDefault();
-      goTo(0);
-    } else if (e.key === "End") {
-      e.preventDefault();
-      goTo(count - 1);
+      stopAutoplay();
+      actions[e.key]();
+      startAutoplay();
     }
   });
 }
+
+/**
+ * Left artwork timeline navigation.
+ * Builds dots for each artwork card, tracks scroll via IntersectionObserver,
+ * and smooth-scrolls on dot click.
+ */
+function buildArtworkTimeline(artworks) {
+  const nav = document.getElementById("artworkTimeline");
+  const dotsContainer = document.getElementById("timelineDots");
+  if (!nav || !dotsContainer || artworks.length === 0) return;
+
+  const cards = Array.from(document.querySelectorAll(".detail-artwork-card"));
+  if (cards.length === 0) return;
+
+  cards.forEach((card, i) => {
+    card.id = `artwork-${i}`;
+    card.dataset.artworkIndex = i;
+  });
+
+  artworks.forEach((work, i) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "tl-dot";
+    btn.dataset.idx = i;
+    btn.setAttribute("aria-label", `Go to: ${work.title}`);
+
+    const tooltip = document.createElement("span");
+    tooltip.className = "tl-tooltip";
+    tooltip.textContent = work.title;
+    tooltip.setAttribute("aria-hidden", "true");
+    btn.appendChild(tooltip);
+
+    btn.addEventListener("click", () => {
+      const target = document.getElementById(`artwork-${i}`);
+      if (!target) return;
+      if (lenis) {
+        lenis.scrollTo(target, { offset: -80, duration: 1.2 });
+      } else {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+
+    dotsContainer.appendChild(btn);
+  });
+
+  nav.removeAttribute("hidden");
+
+  const dotBtns = Array.from(dotsContainer.querySelectorAll(".tl-dot"));
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const idx = Number(entry.target.dataset.artworkIndex);
+          dotBtns.forEach((d, i) => d.classList.toggle("is-active", i === idx));
+        }
+      });
+    },
+    { threshold: 0.45 }
+  );
+
+  cards.forEach((card) => observer.observe(card));
+}
+
+/** Back to top — reveals after 600px scroll, uses Lenis for smooth animation. */
+function initBackToTop() {
+  const btn = document.getElementById("backToTopBtn");
+  if (!btn) return;
+
+  window.addEventListener(
+    "scroll",
+    () => btn.classList.toggle("is-visible", window.scrollY > 600),
+    { passive: true }
+  );
+
+  btn.addEventListener("click", () => {
+    if (lenis) {
+      lenis.scrollTo(0, { duration: 1.5 });
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  });
+}
+
+/* ─── Main render ──────────────────────────────────────────────────────────── */
 
 const era = museumData.find((d) => d.slug === slug);
 
@@ -196,10 +295,11 @@ if (!era) {
     .join("");
 
   const bannerSlides = buildBannerSlides(era);
+
   const slidesHtml = bannerSlides
     .map(
       (s, i) => `
-    <div class="detail-hero-slide">
+    <div class="detail-hero-slide${i === 0 ? " is-active" : ""}">
       <img
         src="${escapeHtml(s.src)}"
         alt="${escapeHtml(s.alt)}"
@@ -225,10 +325,7 @@ if (!era) {
 
   const carouselNav =
     bannerSlides.length > 1
-      ? `
-    <div class="detail-hero-carousel-dots">${dotsHtml}</div>
-    <button type="button" class="detail-carousel-prev" aria-label="Previous slide">Prev</button>
-    <button type="button" class="detail-carousel-next" aria-label="Next slide">Next</button>`
+      ? `<div class="detail-hero-carousel-dots">${dotsHtml}</div>`
       : "";
 
   detailContent.innerHTML = `
@@ -242,7 +339,7 @@ if (!era) {
         tabindex="0"
       >
         <div class="detail-hero-carousel-viewport">
-          <div class="detail-hero-carousel-track">${slidesHtml}</div>
+          ${slidesHtml}
         </div>
         ${carouselNav}
       </div>
@@ -305,7 +402,11 @@ if (!era) {
 
   const carouselEl = document.getElementById("detailHeroCarousel");
   initDetailHeroCarousel(carouselEl, bannerSlides);
+  buildArtworkTimeline(era.artworks || []);
+  initBackToTop();
 }
+
+/* ─── Lenis smooth scroll ──────────────────────────────────────────────────── */
 
 let lenis;
 
