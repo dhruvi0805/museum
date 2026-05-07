@@ -282,7 +282,7 @@ const museumData = [
         "title": "Folio from the Book of Kells",
         "artist": "Irish monastic scribes",
         "date": "~800 CE",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/KellsFol292rIncipitLuke.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/500px-KellsFol032vChristEnthroned.jpg",
         "keyFeatures": [
           "Insular interlace",
           "Vivid pigments",
@@ -291,7 +291,7 @@ const museumData = [
         "workBlurb": "A pinnacle of manuscript luxury where text and pattern become inseparable.",
         "attribution": {
           "creditLine": "Trinity College Dublin / Wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KellsFol292rIncipitLuke.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Book_of_Kells",
           "license": "Public domain (faithful reproduction)"
         }
       },
@@ -317,7 +317,7 @@ const museumData = [
         "artist": "Giotto di Bondone",
         "artistId": "giotto",
         "date": "1304–1306",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-31416-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Compianto_sul_Cristo_morto.jpg/960px-Compianto_sul_Cristo_morto.jpg",
         "keyFeatures": [
           "Fresco secco",
           "Weighted grief",
@@ -326,7 +326,7 @@ const museumData = [
         "workBlurb": "Bodies lean into shared sorrow—an early model of humanist sacred drama.",
         "attribution": {
           "creditLine": "Public domain artwork",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436504",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lamentation_(The_Mourning_of_Christ)",
           "license": "Public domain"
         }
       },
@@ -334,7 +334,7 @@ const museumData = [
         "title": "North rose window, Chartres Cathedral",
         "artist": "Unknown Gothic glaziers",
         "date": "13th century",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chartres_-Cath%C3%A9drale_Notre-Dame-_Rosace_nord.jpg",
+        "imageUrl": "https://www.worldhistory.org/img/r/p/1500x1500/9328.jpg.webp?v=1777400670",
         "keyFeatures": [
           "Stone tracery",
           "Blue glass legend",
@@ -343,7 +343,7 @@ const museumData = [
         "workBlurb": "Light filtered through geometry turns architecture into a luminous diagram of belief.",
         "attribution": {
           "creditLine": "Photo: University of Pittsburgh / Wikimedia",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_-Cath%C3%A9drale_Notre-Dame-_Rosace_nord.jpg",
+          "sourceUrl": "https://www.worldhistory.org/article/1277/the-stained-glass-windows-of-chartres-cathedral/",
           "license": "CC BY 2.0"
         }
       },
@@ -351,7 +351,7 @@ const museumData = [
         "title": "Christ Pantocrator, Monreale Cathedral mosaic",
         "artist": "Byzantine workshop",
         "date": "12th century",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DT299206.jpg",
+        "imageUrl": "https://www.pallasweb.com/p/new-monreale-big-christ.jpg",
         "keyFeatures": [
           "Gold ground",
           "Greek inscription",
@@ -360,7 +360,7 @@ const museumData = [
         "workBlurb": "A stern, frontal Christ anchors Sicily’s Norman-Byzantine fusion.",
         "attribution": {
           "creditLine": "Photo: Berthold Werner / Wikimedia Commons",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/193649",
+          "sourceUrl": "https://www.pallasweb.com/deesis/christ-pantokrator-of-monreale.html",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -385,7 +385,7 @@ const museumData = [
         "title": "Ravenna, San Vitale — Empress Theodora mosaic",
         "artist": "Byzantine workshop",
         "date": "6th century",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Meister_von_San_Vitale_in_Ravenna_006.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2021/06/Theodora-1536x998.jpg",
         "keyFeatures": [
           "Imperial purple",
           "Courtly procession",
@@ -394,7 +394,7 @@ const museumData = [
         "workBlurb": "Theodora’s retinue glitters with authority beside parallel panels of Justinian.",
         "attribution": {
           "creditLine": "Photo: Roger Culos / Wikimedia Commons",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meister_von_San_Vitale_in_Ravenna_006.jpg",
+          "sourceUrl": "https://smarthistory.org/theodora-rhetoric/",
           "license": "CC BY-SA 3.0"
         }
       },
@@ -419,7 +419,7 @@ const museumData = [
         "title": "Sutton Hoo helmet (reconstruction)",
         "artist": "Unknown Anglo-Saxon metalsmith",
         "date": "7th century",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-20747-001.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2020/10/suttonhoo-helmetreconstruction-1536x976.jpg",
         "keyFeatures": [
           "Crested iron and tin",
           "Animal interlace",
@@ -428,7 +428,7 @@ const museumData = [
         "workBlurb": "Elaborate helmet armor signals ritual kingship at the edge of written history.",
         "attribution": {
           "creditLine": "Photo: Gernot Keller / Wikimedia Commons",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437969",
+          "sourceUrl": "https://smarthistory.org/the-sutton-hoo-helmet/",
           "license": "CC BY-SA 4.0"
         }
       },
@@ -436,7 +436,7 @@ const museumData = [
         "title": "Ostromir Gospels — evangelist portrait",
         "artist": "Unknown Kievan scribe (Deacon Gregory)",
         "date": "1056–1057",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/md/original/DP228809.jpg",
+        "imageUrl": "https://gospelwriting.wordpress.com/wp-content/uploads/2012/03/page_126_b.jpg",
         "keyFeatures": [
           "East Slavic illumination",
           "Christ in majesty",
@@ -445,7 +445,7 @@ const museumData = [
         "workBlurb": "One of the earliest dated East Slavic books, bridging Byzantine models and local power.",
         "attribution": {
           "creditLine": "National Library of Russia",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/478665",
+          "sourceUrl": "https://gospelwriting.wordpress.com/footnote85/",
           "license": "Public domain"
         }
       }
@@ -532,7 +532,7 @@ const museumData = [
         "artist": "Sandro Botticelli",
         "artistId": "botticelli",
         "date": "1484–1486",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-22432-001.jpg",
+        "imageUrl": "https://www.uffizi.it/assets/103094/1688659635-1503909239806647-605174-2.jpg",
         "keyFeatures": [
           "Tempera on canvas",
           "Classical myth",
@@ -541,7 +541,7 @@ const museumData = [
         "workBlurb": "Venus arrives on a shell—an emblem of revived antiquity in Florence.",
         "attribution": {
           "creditLine": "Uffizi Gallery / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435831",
+          "sourceUrl": "https://www.uffizi.it/en/artworks/birth-of-venus",
           "license": "Public domain"
         }
       },
@@ -586,7 +586,7 @@ const museumData = [
         "artist": "Michelangelo",
         "artistId": "michelangelo",
         "date": "1508–1512",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DP242352.jpg",
+        "imageUrl": "https://dq7j96arldrqf.cloudfront.net/thesistinechapel/images/creation-of-adam-sistine-chapel.webp",
         "keyFeatures": [
           "Fresco",
           "Torsion and touch",
@@ -594,8 +594,8 @@ const museumData = [
         ],
         "workBlurb": "The near-touch of fingers compresses Genesis into one charged diagonal.",
         "attribution": {
-          "creditLine": "Vatican Museums",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/191803",
+          "creditLine": "Sistine Chapel",
+          "sourceUrl": "https://www.thesistinechapel.org/the-creation-of-adam",
           "license": "Public domain"
         }
       },
@@ -640,7 +640,7 @@ const museumData = [
         "artist": "Michelangelo",
         "artistId": "michelangelo",
         "date": "1501–1504",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Michelangelo%27s_David_-_right_view_2.jpg/500px-Michelangelo%27s_David_-_right_view_2.jpg",
         "keyFeatures": [
           "Carrara marble",
           "Contrapposto",
@@ -649,7 +649,7 @@ const museumData = [
         "workBlurb": "Youth before battle—scale and polish turn biblical hero into Florentine pride.",
         "attribution": {
           "creditLine": "Photo: David Gobeil / Wikimedia Commons",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435844",
+          "sourceUrl": "https://simple.wikipedia.org/wiki/David_%28Michelangelo%29",
           "license": "CC BY 2.0"
         }
       },
@@ -657,7 +657,7 @@ const museumData = [
         "title": "Self-Portrait at 28",
         "artist": "Albrecht Dürer",
         "date": "1500",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+        "imageUrl": "https://www.wga.hu/detail/d/durer/1/03/1self28.jpg",
         "keyFeatures": [
           "Panel painting",
           "Christ-like pose",
@@ -666,7 +666,7 @@ const museumData = [
         "workBlurb": "Dürer stages himself with sacred frontality and artisan confidence.",
         "attribution": {
           "creditLine": "Alte Pinakothek / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436243",
+          "sourceUrl": "https://www.wga.hu/frames-e.html?/html/d/durer/1/03/1self28.html",
           "license": "Public domain"
         }
       },
@@ -674,7 +674,7 @@ const museumData = [
         "title": "The Tempest",
         "artist": "Giorgione",
         "date": "c. 1508",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/es/original/DP246133.jpg",
+        "imageUrl": "https://smarthistory.org/wp-content/uploads/2020/04/TempestWholeSm-870x922.jpg",
         "keyFeatures": [
           "Atmospheric landscape",
           "Enigmatic figures",
@@ -683,7 +683,7 @@ const museumData = [
         "workBlurb": "Storm light and half-told narrative invite modern viewers into mystery.",
         "attribution": {
           "creditLine": "Gallerie dell'Accademia / Google Art Project",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/191809",
+          "sourceUrl": "https://smarthistory.org/giorgione-the-tempest/",
           "license": "Public domain"
         }
       },
@@ -691,7 +691,7 @@ const museumData = [
         "title": "The Assumption of the Virgin (detail)",
         "artist": "Titian",
         "date": "1516–1518",
-        "imageUrl": "https://images.metmuseum.org/CRDImages/rl/original/DP-13487-001.jpg",
+        "imageUrl": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/1686,/0/default.jpg",
         "keyFeatures": [
           "Venetian colorito",
           "Upward spiral",
@@ -700,7 +700,7 @@ const museumData = [
         "workBlurb": "Mary rises through clouds of saturated red and gold—Venetian drama in paint.",
         "attribution": {
           "creditLine": "Photo: Jean-Pierre Dalbéra / Wikimedia Commons",
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/458998",
+          "sourceUrl": "https://www.artic.edu/artworks/87479/the-assumption-of-the-virgin",
           "license": "CC BY 2.0"
         }
       }
