@@ -7,6 +7,19 @@ const overlayClose = document.getElementById("overlayClose");
 
 let lenis;
 
+/** Coalesce scroll Lenis events to one style update per frame (reduces jank). */
+function rafThrottle(fn) {
+  let scheduled = false;
+  return function throttled() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      fn();
+    });
+  };
+}
+
 function renderSections() {
   sectionsContainer.innerHTML = "";
   museumData.forEach((era, index) => {
@@ -14,6 +27,7 @@ function renderSections() {
     section.className = "era-section fade-target";
     section.id = `era-${era.slug}`;
     section.setAttribute("data-index", index);
+    section.style.zIndex = String(index + 1);
 
     const labelNum = String(index + 1).padStart(2, "0");
 
@@ -80,7 +94,7 @@ function renderNav() {
 function initLenis() {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   lenis = new Lenis({
-    duration: 1.3,
+    duration: 1.45,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     direction: "vertical",
     gestureDirection: "vertical",
@@ -148,16 +162,47 @@ function initEntranceAnimations() {
 function initCinematicScrollFx() {
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const backgrounds = document.querySelectorAll(".era-bg");
-  const onScroll = () => {
+  const PARALLAX_PX = 12;
+
+  function updateParallax() {
+    const vh = window.innerHeight || 1;
     backgrounds.forEach((bg) => {
       const section = bg.closest(".era-section");
       const rect = section.getBoundingClientRect();
-      const progress = rect.top / window.innerHeight;
-      bg.style.transform = `scale(1.08) translateY(${progress * -18}px)`;
+      const progress = rect.top / vh;
+      const ty = progress * -PARALLAX_PX;
+      bg.style.transform = `scale(1.08) translateY(${ty.toFixed(2)}px)`;
     });
-  };
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
+  }
+
+  const onFrame = rafThrottle(updateParallax);
+  window.addEventListener("scroll", onFrame, { passive: true });
+  requestAnimationFrame(updateParallax);
+
+  const lenisInstance = lenis;
+  if (lenisInstance != null && typeof lenisInstance.on === "function") {
+    lenisInstance.on("scroll", onFrame);
+  }
+}
+
+function initStickyNav() {
+  const bar = document.getElementById("mobileTopBar");
+  const sidebar = document.getElementById("sidebar");
+
+  function update() {
+    const scrolled = window.scrollY > 40;
+    bar?.classList.toggle("scrolled", scrolled);
+    sidebar?.classList.toggle("is-scrolled", scrolled);
+  }
+
+  const onFrame = rafThrottle(update);
+  window.addEventListener("scroll", onFrame, { passive: true });
+  update();
+
+  const lenisInstance = lenis;
+  if (lenisInstance != null && typeof lenisInstance.on === "function") {
+    lenisInstance.on("scroll", onFrame);
+  }
 }
 
 function initBackgroundLazyLoad() {
@@ -210,6 +255,7 @@ function initMobileMenu() {
 renderSections();
 renderNav();
 initLenis();
+initStickyNav();
 initSmoothScroll();
 initActiveTracking();
 initEntranceAnimations();
