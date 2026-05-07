@@ -252,7 +252,7 @@ const museumData = [
     "description": "Dominated by religious iconography and manuscript illumination, medieval art prioritized spiritual meaning over naturalistic representation.",
     "heroSubtitle": "Medieval Art explores sacred and devotional image-making through churches and manuscripts.",
     "visualMood": "Sacred and devotional",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KellsFol032vChristEnthroned.jpg/1280px-KellsFol032vChristEnthroned.jpg",
+    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KellsFol032vChristEnthroned.jpg/500px-KellsFol032vChristEnthroned.jpg",
     "imagePlaceholder": "II",
     "highlights": [
       "Book of Kells",
@@ -744,7 +744,7 @@ const museumData = [
     "description": "Baroque art deployed dramatic light, intense emotion, and dynamic movement to engage viewers viscerally.",
     "heroSubtitle": "Baroque and Rococo explore theatrical and ornamental visual spectacle.",
     "visualMood": "Theatrical and ornamental",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/1280px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+    "bgImage": "https://www.caravaggio.org/assets/img/paintings/the-calling-of-saint-matthew.jpg",
     "imagePlaceholder": "IV",
     "highlights": [
       "Caravaggio",
@@ -991,7 +991,7 @@ const museumData = [
     "description": "Neoclassicism returned to Greco-Roman ideals while Romanticism reacted with emotion and sublime nature.",
     "heroSubtitle": "This era explores reason versus emotion in modern European painting.",
     "visualMood": "Reason versus emotion",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg/960px-Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_%3B_MR_1432.jpg",
     "imagePlaceholder": "V",
     "highlights": [
       "David",
@@ -1238,7 +1238,7 @@ const museumData = [
     "description": "Impressionists painted outdoors capturing fleeting light; successors pushed structure and emotion.",
     "heroSubtitle": "This era explores atmospheric and fleeting perception in modern painting.",
     "visualMood": "Atmospheric and fleeting",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg/1280px-Claude_Monet%2C_The_Water-Lily_Pond%2C_1906%2C_The_Art_Institute_of_Chicago.jpg",
+    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
     "imagePlaceholder": "VI",
     "highlights": [
       "Monet",
@@ -1485,7 +1485,7 @@ const museumData = [
     "description": "A radical rupture with tradition where Cubism, Surrealism, and abstraction redefined visual language.",
     "heroSubtitle": "Modern Art explores experimental and disruptive forms of representation.",
     "visualMood": "Experimental and disruptive",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+    "bgImage": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/960px-Les_Demoiselles_d%27Avignon.jpg",
     "imagePlaceholder": "VII",
     "highlights": [
       "Picasso",
@@ -1731,7 +1731,7 @@ const museumData = [
     "description": "Conceptual, installation, performance, and digital practices coexist in a global conversation.",
     "heroSubtitle": "Contemporary Art explores plural and critical approaches to image, identity, and systems.",
     "visualMood": "Plural and critical",
-    "bgImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kusama_at_her_studio.jpg/1280px-Kusama_at_her_studio.jpg",
+    "bgImage": "https://smarthistory.org/wp-content/uploads/2022/02/MarilynDip-1536x1086.jpg",
     "imagePlaceholder": "VIII",
     "highlights": [
       "Warhol",
