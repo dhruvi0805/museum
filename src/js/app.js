@@ -255,6 +255,13 @@ function initMobileMenu() {
 renderSections();
 renderNav();
 initLenis();
+
+document.getElementById("sidebarLogo").addEventListener("click", (e) => {
+  e.preventDefault();
+  if (lenis) lenis.scrollTo("top");
+  else window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
 initStickyNav();
 initSmoothScroll();
 initActiveTracking();

@@ -97,8 +97,12 @@ button { cursor: pointer; background: none; border: none; font-family: inherit; 
 }
 
 .sidebar-logo {
+  display: block;
   padding: var(--space-5) var(--space-4) var(--space-4);
   border-bottom: 1px solid rgba(255,255,255,0.1);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .logo-line {
